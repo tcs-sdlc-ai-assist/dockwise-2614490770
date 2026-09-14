@@ -175,4 +175,31 @@ describe('Reports (API)', () => {
     expect(byCode.status).toBe(200);
     expect(byCode.body[0].confirmationCode).toBe(code);
   });
+
+  it('filters by carrierId', async () => {
+    // The seeded appointment has carrierName 'Northstar' but no carrierId; add
+    // one with a carrierId to filter on.
+    const recent = new Date(Date.now() - 3 * 24 * 60 * 60 * 1000);
+    await dataSource.getRepository(Appointment).save(
+      dataSource.getRepository(Appointment).create({
+        confirmationCode: `C${Math.random().toString(36).slice(2, 8).toUpperCase()}`,
+        siteId,
+        tenantId: tenantAId,
+        carrierId: 'carrier-xyz',
+        activity: 'live load',
+        windowStart: recent,
+        windowEnd: new Date(recent.getTime() + 3600000),
+        status: 'confirmed',
+      }),
+    );
+    const res = await request(ctx.app.getHttpServer())
+      .get('/api/v1/reports/search')
+      .query({ siteId, carrierId: 'carrier-xyz' })
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(res.status).toBe(200);
+    expect(res.body.length).toBeGreaterThan(0);
+    for (const row of res.body) {
+      expect(row.carrierId).toBe('carrier-xyz');
+    }
+  });
 });

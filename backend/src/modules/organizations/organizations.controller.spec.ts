@@ -79,6 +79,21 @@ describe('Organizations (API)', () => {
     expect(res.status).toBe(400);
   });
 
+  it('filters organizations by type', async () => {
+    await request(ctx.app.getHttpServer())
+      .post('/api/v1/organizations')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({ name: 'Filter Carrier', type: 'carrier' });
+    const res = await request(ctx.app.getHttpServer())
+      .get('/api/v1/organizations')
+      .query({ type: 'tenant' })
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(res.status).toBe(200);
+    for (const org of res.body) {
+      expect(org.type).toBe('tenant');
+    }
+  });
+
   it('returns 401 without a token', async () => {
     const res = await request(ctx.app.getHttpServer()).get(
       '/api/v1/organizations',

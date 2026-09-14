@@ -19,9 +19,9 @@ test.describe('cross-feature journey', () => {
   test('book → gate check-in → dock → search', async ({ page }) => {
     const errors = captureConsoleErrors(page);
 
-    // 1. Booker signs in and books an appointment.
+    // 1. Booker signs in and books an appointment (navigate by clicking).
     await signIn(page, 'booker@frostline.example');
-    await page.goto('/book');
+    await page.getByRole('link', { name: /^book$/i }).click();
     await expect(
       page.getByRole('heading', { name: /book an appointment/i }),
     ).toBeVisible();
@@ -47,7 +47,7 @@ test.describe('cross-feature journey', () => {
 
     // 2. Gate officer signs in and searches for the booking by PO.
     await signIn(page, 'gate@dockwise.example');
-    await page.goto('/gate');
+    await page.getByRole('link', { name: /^gate$/i }).click();
     await page.getByLabel(/site/i).selectOption({ index: 1 });
     await page.getByLabel(/search/i).fill('PO-E2E-JOURNEY');
 

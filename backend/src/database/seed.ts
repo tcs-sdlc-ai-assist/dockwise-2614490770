@@ -16,6 +16,14 @@ import {
   Membership,
   Role,
 } from '../modules/organizations/membership.entity';
+import { Site, SiteStatus } from '../modules/sites/site.entity';
+import { Door, DoorType } from '../modules/sites/door.entity';
+import { Appointment } from '../modules/appointments/appointment.entity';
+import {
+  AppointmentStatus,
+  ActivityType,
+} from '../modules/appointments/appointment.enums';
+import { generateConfirmationCode } from '../modules/appointments/confirmation-code.util';
 
 /** Demo password shared by seeded accounts (documented in the README). */
 const DEMO_PASSWORD = 'DockwiseDemo!1';
@@ -178,6 +186,65 @@ export async function seed(dataSource: DataSource): Promise<void> {
           role: spec.role,
         }),
       ),
+    );
+  }
+
+  // Demo site, door, and a confirmed appointment so E2E and first-run have data.
+  const sites = dataSource.getRepository(Site);
+  const doors = dataSource.getRepository(Door);
+  const appointments = dataSource.getRepository(Appointment);
+
+  let site = await sites.findOne({ where: { name: 'Dayton DC-03' } });
+  if (!site) {
+    site = await sites.save(
+      sites.create({
+        name: 'Dayton DC-03',
+        address: '1 Dock Way, Dayton, OH',
+        timezone: 'America/New_York',
+        operatorId: operatorId!,
+        status: SiteStatus.LIVE,
+        yardCapacity: 12,
+      }),
+    );
+  }
+
+  let door = await doors.findOne({
+    where: { siteId: site.id, number: '11' },
+  });
+  if (!door) {
+    door = await doors.save(
+      doors.create({
+        siteId: site.id,
+        number: '11',
+        type: DoorType.DOCK_HIGH,
+        group: `leased:${tenantId!}`,
+        reeferPower: true,
+        containerSupport: true,
+      }),
+    );
+  }
+
+  // A confirmed appointment today for the demo tenant (drives gate/dock E2E).
+  const existingAppt = await appointments.findOne({
+    where: { siteId: site.id, referenceText: 'PO 88421' },
+  });
+  if (!existingAppt) {
+    const start = new Date();
+    start.setMinutes(0, 0, 0);
+    const end = new Date(start.getTime() + 90 * 60000);
+    await appointments.save(
+      appointments.create({
+        confirmationCode: generateConfirmationCode(),
+        siteId: site.id,
+        tenantId: tenantId!,
+        carrierName: 'Northstar Dedicated',
+        doorId: door.id,
+        activity: ActivityType.LIVE_UNLOAD,
+        windowStart: start,
+        windowEnd: end,
+        status: AppointmentStatus.CONFIRMED,
+        referenceText: 'PO 88421',
+      }),
     );
   }
 }

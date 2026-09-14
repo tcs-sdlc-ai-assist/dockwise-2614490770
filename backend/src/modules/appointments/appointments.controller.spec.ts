@@ -123,6 +123,17 @@ describe('Appointments (API)', () => {
     expect(Array.isArray(res.body)).toBe(true);
   });
 
+  it('filters availability by vehicleType (reefer excludes non-reefer doors)', async () => {
+    const res = await request(ctx.app.getHttpServer())
+      .get('/api/v1/appointments/availability')
+      .query({ siteId, day: '2025-06-05', durationMinutes: 90, vehicleType: 'reefer' })
+      .set('Authorization', `Bearer ${bookerToken}`);
+    expect(res.status).toBe(200);
+    // The leased door has no reefer power, so no reefer slots are returned.
+    expect(Array.isArray(res.body)).toBe(true);
+    expect(res.body.length).toBe(0);
+  });
+
   it('lists only the caller tenant appointments', async () => {
     const res = await request(ctx.app.getHttpServer())
       .get('/api/v1/appointments')
@@ -206,7 +217,7 @@ describe('Appointments (API)', () => {
     expect(res.body.status).toBe('cancelled');
   });
 
-  it('returns 400 for an invalid window (end before start)', async () => {
+  it('returns 409 for an invalid window (end before start)', async () => {
     const res = await request(ctx.app.getHttpServer())
       .post('/api/v1/appointments')
       .set('Authorization', `Bearer ${bookerToken}`)
