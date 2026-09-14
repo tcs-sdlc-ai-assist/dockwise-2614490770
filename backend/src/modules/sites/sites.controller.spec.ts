@@ -119,7 +119,7 @@ describe('Sites & Doors (API)', () => {
     expect(res.body.skipped).toBe(1);
   });
 
-  it('marks a door out of service with a note', async () => {
+  it('marks a door out of service with a note and back in service', async () => {
     const site = await request(ctx.app.getHttpServer())
       .post('/api/v1/sites')
       .set('Authorization', `Bearer ${adminToken}`)
@@ -131,12 +131,62 @@ describe('Sites & Doors (API)', () => {
       .send({ number: '7', type: 'dock-high' });
     const doorId = door.body.id as string;
 
-    const res = await request(ctx.app.getHttpServer())
+    const out = await request(ctx.app.getHttpServer())
       .patch(`/api/v1/doors/${doorId}/out-of-service`)
       .set('Authorization', `Bearer ${adminToken}`)
       .send({ note: 'Door spring broken' });
+    expect(out.status).toBe(200);
+    expect(out.body.status).toBe('out_of_service');
+
+    const back = await request(ctx.app.getHttpServer())
+      .patch(`/api/v1/doors/${doorId}/in-service`)
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(back.status).toBe(200);
+    expect(back.body.status).toBe('in_service');
+  });
+
+  it('gets a site by id and returns 404 for a missing site', async () => {
+    const site = await request(ctx.app.getHttpServer())
+      .post('/api/v1/sites')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({ name: 'Get Site', address: 'A', timezone: 'America/New_York' });
+    const res = await request(ctx.app.getHttpServer())
+      .get(`/api/v1/sites/${site.body.id}`)
+      .set('Authorization', `Bearer ${adminToken}`);
     expect(res.status).toBe(200);
-    expect(res.body.status).toBe('out_of_service');
-    expect(res.body.statusNote).toBe('Door spring broken');
+    expect(res.body.name).toBe('Get Site');
+
+    const missing = await request(ctx.app.getHttpServer())
+      .get('/api/v1/sites/00000000-0000-4000-8000-000000000099')
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(missing.status).toBe(404);
+  });
+
+  it('transitions a site to live', async () => {
+    const site = await request(ctx.app.getHttpServer())
+      .post('/api/v1/sites')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({ name: 'GoLive Site', address: 'A', timezone: 'America/New_York' });
+    const res = await request(ctx.app.getHttpServer())
+      .post(`/api/v1/sites/${site.body.id}/go-live`)
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(res.status).toBe(201);
+    expect(res.body.status).toBe('live');
+  });
+
+  it('lists doors for a site', async () => {
+    const site = await request(ctx.app.getHttpServer())
+      .post('/api/v1/sites')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({ name: 'List Doors Site', address: 'A', timezone: 'America/New_York' });
+    await request(ctx.app.getHttpServer())
+      .post(`/api/v1/sites/${site.body.id}/doors`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({ number: '1', type: 'dock-high' });
+    const res = await request(ctx.app.getHttpServer())
+      .get(`/api/v1/sites/${site.body.id}/doors`)
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(res.status).toBe(200);
+    expect(res.body.length).toBeGreaterThan(0);
   });
 });

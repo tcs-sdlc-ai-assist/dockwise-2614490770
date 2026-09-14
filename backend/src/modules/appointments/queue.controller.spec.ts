@@ -165,4 +165,27 @@ describe('Queue (API)', () => {
       .set('Authorization', `Bearer ${bookerToken}`);
     expect(res.status).toBe(403);
   });
+
+  it('lists exceptions for a site', async () => {
+    // Create an overdue confirmed appointment (window in the past).
+    await dataSource.getRepository(Appointment).save(
+      dataSource.getRepository(Appointment).create({
+        confirmationCode: `EX${Math.random().toString(36).slice(2, 7).toUpperCase()}`,
+        siteId,
+        tenantId: 'tenant-1',
+        doorId: doorAId,
+        activity: 'live unload',
+        windowStart: new Date('2020-01-01T12:00:00Z'),
+        windowEnd: new Date('2020-01-01T13:00:00Z'),
+        status: 'confirmed',
+      }),
+    );
+    const res = await request(ctx.app.getHttpServer())
+      .get('/api/v1/queue/exceptions')
+      .query({ siteId })
+      .set('Authorization', `Bearer ${coordinatorToken}`);
+    expect(res.status).toBe(200);
+    expect(Array.isArray(res.body)).toBe(true);
+    expect(res.body.length).toBeGreaterThan(0);
+  });
 });

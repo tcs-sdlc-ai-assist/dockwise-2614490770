@@ -139,4 +139,85 @@ describe('Appointments (API)', () => {
     );
     expect(res.status).toBe(401);
   });
+
+  it('gets an appointment by id', async () => {
+    const created = await request(ctx.app.getHttpServer())
+      .post('/api/v1/appointments')
+      .set('Authorization', `Bearer ${bookerToken}`)
+      .send({
+        siteId,
+        tenantId,
+        doorId: leasedDoorId,
+        activity: 'drop',
+        windowStart: '2025-06-04T12:00:00Z',
+        windowEnd: '2025-06-04T12:30:00Z',
+      });
+    const res = await request(ctx.app.getHttpServer())
+      .get(`/api/v1/appointments/${created.body.id}`)
+      .set('Authorization', `Bearer ${bookerToken}`);
+    expect(res.status).toBe(200);
+    expect(res.body.id).toBe(created.body.id);
+  });
+
+  it('returns 404 for a missing appointment', async () => {
+    const res = await request(ctx.app.getHttpServer())
+      .get('/api/v1/appointments/00000000-0000-4000-8000-000000000099')
+      .set('Authorization', `Bearer ${bookerToken}`);
+    expect(res.status).toBe(404);
+  });
+
+  it('submits a draft appointment', async () => {
+    const draft = await request(ctx.app.getHttpServer())
+      .post('/api/v1/appointments')
+      .set('Authorization', `Bearer ${bookerToken}`)
+      .send({
+        siteId,
+        tenantId,
+        doorId: leasedDoorId,
+        activity: 'drop',
+        windowStart: '2025-06-06T12:00:00Z',
+        windowEnd: '2025-06-06T12:30:00Z',
+        saveAsDraft: true,
+      });
+    expect(draft.body.status).toBe('draft');
+    const res = await request(ctx.app.getHttpServer())
+      .post(`/api/v1/appointments/${draft.body.id}/submit`)
+      .set('Authorization', `Bearer ${bookerToken}`);
+    expect(res.status).toBe(201);
+    expect(['confirmed', 'requested']).toContain(res.body.status);
+  });
+
+  it('cancels an appointment', async () => {
+    const created = await request(ctx.app.getHttpServer())
+      .post('/api/v1/appointments')
+      .set('Authorization', `Bearer ${bookerToken}`)
+      .send({
+        siteId,
+        tenantId,
+        doorId: leasedDoorId,
+        activity: 'drop',
+        windowStart: '2025-06-08T12:00:00Z',
+        windowEnd: '2025-06-08T12:30:00Z',
+      });
+    const res = await request(ctx.app.getHttpServer())
+      .post(`/api/v1/appointments/${created.body.id}/cancel`)
+      .set('Authorization', `Bearer ${bookerToken}`);
+    expect(res.status).toBe(201);
+    expect(res.body.status).toBe('cancelled');
+  });
+
+  it('returns 400 for an invalid window (end before start)', async () => {
+    const res = await request(ctx.app.getHttpServer())
+      .post('/api/v1/appointments')
+      .set('Authorization', `Bearer ${bookerToken}`)
+      .send({
+        siteId,
+        tenantId,
+        doorId: leasedDoorId,
+        activity: 'drop',
+        windowStart: '2025-06-10T13:00:00Z',
+        windowEnd: '2025-06-10T12:00:00Z',
+      });
+    expect(res.status).toBe(409);
+  });
 });

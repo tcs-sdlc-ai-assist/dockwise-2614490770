@@ -149,4 +149,30 @@ describe('Reports (API)', () => {
       expect(row.tenantId).toBe(tenantAId);
     }
   });
+
+  it('filters by plate, status, and confirmation code', async () => {
+    const byPlate = await request(ctx.app.getHttpServer())
+      .get('/api/v1/reports/search')
+      .query({ siteId, plate: 'ABC123' })
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(byPlate.status).toBe(200);
+    expect(byPlate.body.length).toBeGreaterThan(0);
+
+    const byStatus = await request(ctx.app.getHttpServer())
+      .get('/api/v1/reports/search')
+      .query({ siteId, status: 'complete' })
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(byStatus.status).toBe(200);
+    for (const row of byStatus.body) {
+      expect(row.status).toBe('complete');
+    }
+
+    const code = byPlate.body[0].confirmationCode as string;
+    const byCode = await request(ctx.app.getHttpServer())
+      .get('/api/v1/reports/search')
+      .query({ siteId, confirmationCode: code })
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(byCode.status).toBe(200);
+    expect(byCode.body[0].confirmationCode).toBe(code);
+  });
 });

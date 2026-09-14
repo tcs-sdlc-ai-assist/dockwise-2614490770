@@ -70,4 +70,35 @@ test.describe('cross-feature journey', () => {
     ).toBeVisible();
     expectNoConsoleErrors(errors);
   });
+
+  test('the frontend calls the backend over HTTP (network assertion)', async ({
+    page,
+  }) => {
+    const errors = captureConsoleErrors(page);
+    // Assert the frontend issues a real backend request and gets a 2xx.
+    const responsePromise = page.waitForResponse(
+      (resp) => resp.url().includes('/api/v1/auth/login') && resp.status() === 200,
+    );
+    await signIn(page, 'booker@frostline.example');
+    const response = await responsePromise;
+    expect(response.status()).toBe(200);
+    expectNoConsoleErrors(errors);
+  });
+
+  test('a loading indicator appears while the board loads', async ({
+    page,
+  }) => {
+    const errors = captureConsoleErrors(page);
+    await signIn(page, 'coordinator@dockwise.example');
+    // Slow the board response so the loading state is observable.
+    await page.route('**/api/v1/board/**', async (route) => {
+      await new Promise((r) => setTimeout(r, 800));
+      await route.continue();
+    });
+    await page.getByRole('link', { name: /live board/i }).click();
+    await page.getByLabel(/site/i).selectOption({ index: 1 });
+    // The loading indicator appears while the request is in flight.
+    await expect(page.getByText(/loading board/i)).toBeVisible();
+    expectNoConsoleErrors(errors);
+  });
 });

@@ -194,4 +194,48 @@ describe('Visits (API)', () => {
       .send({ driverName: 'X', tractorPlate: 'P', trailerNumber: 'T' });
     expect(res.status).toBe(403);
   });
+
+  it('records an after-the-fact check-in with reason and original time', async () => {
+    const appt = await dataSource.getRepository(Appointment).save(
+      dataSource.getRepository(Appointment).create({
+        confirmationCode: `ATF${Math.random().toString(36).slice(2, 7).toUpperCase()}`,
+        siteId,
+        tenantId: 'tenant-1',
+        activity: 'drop',
+        windowStart: new Date('2025-06-02T12:00:00Z'),
+        windowEnd: new Date('2025-06-02T12:30:00Z'),
+        status: 'confirmed',
+      }),
+    );
+    const res = await request(ctx.app.getHttpServer())
+      .post(`/api/v1/visits/appointments/${appt.id}/after-the-fact-check-in`)
+      .set('Authorization', `Bearer ${coordinatorToken}`)
+      .send({
+        driverName: 'Sam',
+        tractorPlate: 'ABC123',
+        trailerNumber: 'TRL1',
+        reason: 'Gate system outage',
+        originalArrivedAt: '2025-06-02T11:55:00Z',
+      });
+    expect(res.status).toBe(201);
+    expect(res.body.reason).toBe('Gate system outage');
+  });
+
+  it('gets a visit by id and returns 404 for a missing visit', async () => {
+    const search = await request(ctx.app.getHttpServer())
+      .get('/api/v1/visits/search')
+      .query({ siteId, q: confirmationCode })
+      .set('Authorization', `Bearer ${gateToken}`);
+    const existingVisitId = search.body[0]?.visitId;
+    if (existingVisitId) {
+      const res = await request(ctx.app.getHttpServer())
+        .get(`/api/v1/visits/${existingVisitId}`)
+        .set('Authorization', `Bearer ${gateToken}`);
+      expect(res.status).toBe(200);
+    }
+    const missing = await request(ctx.app.getHttpServer())
+      .get('/api/v1/visits/00000000-0000-4000-8000-000000000099')
+      .set('Authorization', `Bearer ${gateToken}`);
+    expect(missing.status).toBe(404);
+  });
 });

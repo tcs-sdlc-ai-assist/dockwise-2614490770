@@ -2,12 +2,14 @@
  * Application router for the Dockwise frontend.
  *
  * The single source of routing. The root route renders a public landing page;
- * protected routes are gated behind authentication. One route per page.
+ * protected routes are gated behind authentication and wrapped in the shared
+ * app layout (feature navigation, notification bell, impersonation banner).
  */
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { LandingPage } from './features/landing/LandingPage';
 import { LoginPage } from './features/auth/LoginPage';
 import { ProtectedRoute } from './auth/ProtectedRoute';
+import { AppLayout } from './components/AppLayout';
 import { HomePage } from './features/home/HomePage';
 import { SitesPage } from './features/admin/SitesPage';
 import { SiteDetailPage } from './features/admin/SiteDetailPage';
@@ -31,100 +33,25 @@ const router = createBrowserRouter([
     element: <LoginPage />,
   },
   {
-    path: '/app',
     element: (
       <ProtectedRoute>
-        <HomePage />
+        <AppLayout />
       </ProtectedRoute>
     ),
-  },
-  {
-    path: '/admin/sites',
-    element: (
-      <ProtectedRoute>
-        <SitesPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/admin/sites/:siteId',
-    element: (
-      <ProtectedRoute>
-        <SiteDetailPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/book',
-    element: (
-      <ProtectedRoute>
-        <BookingPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/appointments',
-    element: (
-      <ProtectedRoute>
-        <MyAppointmentsPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/queue',
-    element: (
-      <ProtectedRoute>
-        <QueuePage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/board',
-    element: (
-      <ProtectedRoute>
-        <LiveBoardPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/gate',
-    element: (
-      <ProtectedRoute>
-        <GatePage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/dock',
-    element: (
-      <ProtectedRoute>
-        <DockPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/visits/:visitId',
-    element: (
-      <ProtectedRoute>
-        <VisitDetailPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/search',
-    element: (
-      <ProtectedRoute>
-        <SearchPage />
-      </ProtectedRoute>
-    ),
-  },
-  {
-    path: '/dashboard',
-    element: (
-      <ProtectedRoute>
-        <DashboardPage />
-      </ProtectedRoute>
-    ),
+    children: [
+      { path: '/app', element: <HomePage /> },
+      { path: '/admin/sites', element: <SitesPage /> },
+      { path: '/admin/sites/:siteId', element: <SiteDetailPage /> },
+      { path: '/book', element: <BookingPage /> },
+      { path: '/appointments', element: <MyAppointmentsPage /> },
+      { path: '/queue', element: <QueuePage /> },
+      { path: '/board', element: <LiveBoardPage /> },
+      { path: '/gate', element: <GatePage /> },
+      { path: '/dock', element: <DockPage /> },
+      { path: '/visits/:visitId', element: <VisitDetailPage /> },
+      { path: '/search', element: <SearchPage /> },
+      { path: '/dashboard', element: <DashboardPage /> },
+    ],
   },
 ]);
 

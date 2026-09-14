@@ -5,18 +5,20 @@
  * Run in the TESTING phase against live servers.
  */
 import { test, expect } from '@playwright/test';
+import {
+  captureConsoleErrors,
+  expectNoConsoleErrors,
+  signIn,
+} from './helpers';
 
 test.describe('notifications', () => {
   test('signed-in user sees the notification bell', async ({ page }) => {
-    await page.goto('/login');
-    await page.getByLabel(/email/i).fill('booker@frostline.example');
-    await page.getByLabel(/password/i).fill('DockwiseDemo!1');
-    await page.getByRole('button', { name: /sign in/i }).click();
-    await expect(page).toHaveURL(/\/app/);
-
+    const errors = captureConsoleErrors(page);
+    await signIn(page, 'booker@frostline.example');
     // The notification bell is present in the app shell.
     await expect(
       page.getByRole('button', { name: /notifications/i }),
     ).toBeVisible();
+    expectNoConsoleErrors(errors);
   });
 });

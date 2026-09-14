@@ -122,4 +122,31 @@ describe('Detention (API)', () => {
       });
     expect(res.status).toBe(403);
   });
+
+  it('lists detention pauses for a visit', async () => {
+    await request(ctx.app.getHttpServer())
+      .post(`/api/v1/visits/${visitId}/detention/pause`)
+      .set('Authorization', `Bearer ${coordinatorToken}`)
+      .send({
+        reason: 'site_fault',
+        detail: 'Door breakdown',
+        startAt: '2025-06-02T13:00:00Z',
+        endAt: '2025-06-02T13:30:00Z',
+      });
+    const res = await request(ctx.app.getHttpServer())
+      .get(`/api/v1/visits/${visitId}/detention/pauses`)
+      .set('Authorization', `Bearer ${coordinatorToken}`);
+    expect(res.status).toBe(200);
+    expect(Array.isArray(res.body)).toBe(true);
+    expect(res.body.length).toBeGreaterThan(0);
+  });
+
+  it('honors the freeTimeMinutes query parameter', async () => {
+    const res = await request(ctx.app.getHttpServer())
+      .get(`/api/v1/visits/${visitId}/detention`)
+      .query({ freeTimeMinutes: '60' })
+      .set('Authorization', `Bearer ${coordinatorToken}`);
+    expect(res.status).toBe(200);
+    expect(res.body.freeTimeMinutes).toBe(60);
+  });
 });

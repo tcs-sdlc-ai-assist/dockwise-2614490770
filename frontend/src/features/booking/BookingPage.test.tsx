@@ -94,6 +94,30 @@ describe('BookingPage', () => {
     expect(await screen.findByText(/Door L1/)).toBeInTheDocument();
   });
 
+  it('shows an error when the booking conflicts', async () => {
+    vi.mocked(appointmentsApi.queryAvailability).mockResolvedValue([
+      {
+        doorId: 'd1',
+        doorNumber: 'L1',
+        start: '2025-06-02T12:00:00Z',
+        end: '2025-06-02T13:30:00Z',
+      },
+    ]);
+    vi.mocked(appointmentsApi.createAppointment).mockRejectedValue({
+      response: { status: 409 },
+    });
+    renderPage();
+    await screen.findByLabelText(/site/i);
+    await userEvent.selectOptions(screen.getByLabelText(/site/i), 's1');
+    await userEvent.click(await screen.findByText(/Door L1/));
+    await userEvent.click(
+      await screen.findByRole('button', { name: /book appointment/i }),
+    );
+    expect(
+      await screen.findByText(/conflicts with a confirmed appointment/i),
+    ).toBeInTheDocument();
+  });
+
   it('books an appointment and shows the confirmation code', async () => {
     vi.mocked(appointmentsApi.queryAvailability).mockResolvedValue([
       {

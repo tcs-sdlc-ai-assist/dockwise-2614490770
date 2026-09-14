@@ -2,12 +2,10 @@
  * Authenticated home page for Dockwise.
  *
  * A simple operational landing for signed-in users, showing the current
- * principal and the organizations they belong to. Feature navigation is added
- * by later slices.
+ * principal and the organizations they belong to. Feature navigation lives in
+ * the shared app layout.
  */
 import { useAuth } from '../../auth/AuthContext';
-import { NotificationBell } from '../../components/NotificationBell';
-import { ImpersonationBanner } from '../../components/ImpersonationBanner';
 
 /**
  * Render the authenticated home page.
@@ -16,20 +14,10 @@ import { ImpersonationBanner } from '../../components/ImpersonationBanner';
  *   The home page element.
  */
 export function HomePage() {
-  const { user, logout } = useAuth();
+  const { user } = useAuth();
 
   return (
     <main className="app-page">
-      <ImpersonationBanner />
-      <header className="app-header">
-        <h1>Dockwise</h1>
-        <div className="app-header-actions">
-          <NotificationBell />
-          <button type="button" className="btn btn-secondary" onClick={logout}>
-            Sign out
-          </button>
-        </div>
-      </header>
       <section className="card">
         <h2>Welcome, {user?.fullName}</h2>
         <p className="muted">{user?.email}</p>

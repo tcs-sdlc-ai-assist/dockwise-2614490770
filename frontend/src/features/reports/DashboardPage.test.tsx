@@ -75,6 +75,25 @@ describe('DashboardPage', () => {
     expect(screen.getByText('4')).toBeInTheDocument(); // unscheduled
   });
 
+  it('handles empty metrics gracefully', async () => {
+    vi.mocked(reportsApi.getDashboard).mockResolvedValue({
+      ...metrics,
+      byStatus30d: {},
+      onTimePercent: null,
+      avgDwellMinutes: null,
+    });
+    renderPage();
+    await waitFor(() =>
+      expect(
+        screen.getByRole('option', { name: 'Dayton DC-03' }),
+      ).toBeInTheDocument(),
+    );
+    await userEvent.selectOptions(screen.getByLabelText(/site/i), 's1');
+    expect(
+      await screen.findByText(/no appointments in the last 30 days/i),
+    ).toBeInTheDocument();
+  });
+
   it('renders the by-status table', async () => {
     renderPage();
     await waitFor(() =>

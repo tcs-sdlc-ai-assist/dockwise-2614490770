@@ -95,6 +95,26 @@ describe('LiveBoardPage', () => {
     ).toBeInTheDocument();
   });
 
+  it('shows an empty board when there are no cards', async () => {
+    vi.mocked(boardApi.getBoardSnapshot).mockResolvedValue({
+      ...snapshot,
+      upcoming: [],
+      inYard: [],
+      atDoor: [],
+      exceptions: [],
+    });
+    renderPage();
+    await waitFor(() =>
+      expect(
+        screen.getByRole('option', { name: 'Dayton DC-03' }),
+      ).toBeInTheDocument(),
+    );
+    await userEvent.selectOptions(screen.getByLabelText(/site/i), 's1');
+    // Each column shows the "None" empty state.
+    const noneCells = await screen.findAllByText('None');
+    expect(noneCells.length).toBeGreaterThan(0);
+  });
+
   it('renders a card with the confirmation code and door', async () => {
     renderPage();
     await waitFor(() =>
