@@ -13,11 +13,19 @@ import { AppointmentsService } from './appointments.service';
 import { AppointmentsController } from './appointments.controller';
 import { QueueService } from './queue.service';
 import { QueueController } from './queue.controller';
+import { BoardService } from './board.service';
+import { BoardController } from './board.controller';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Appointment, Reassignment, Door, Site])],
-  providers: [AvailabilityService, AppointmentsService, QueueService],
-  controllers: [AppointmentsController, QueueController],
-  exports: [AppointmentsService, AvailabilityService, QueueService, TypeOrmModule],
+  providers: [AvailabilityService, AppointmentsService, QueueService, BoardService],
+  controllers: [AppointmentsController, QueueController, BoardController],
+  exports: [
+    AppointmentsService,
+    AvailabilityService,
+    QueueService,
+    BoardService,
+    TypeOrmModule,
+  ],
 })
 export class AppointmentsModule {}

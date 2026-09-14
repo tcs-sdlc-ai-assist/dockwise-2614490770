@@ -14,6 +14,7 @@ import { SiteDetailPage } from './features/admin/SiteDetailPage';
 import { BookingPage } from './features/booking/BookingPage';
 import { MyAppointmentsPage } from './features/booking/MyAppointmentsPage';
 import { QueuePage } from './features/coordinator/QueuePage';
+import { LiveBoardPage } from './features/board/LiveBoardPage';
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,14 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <QueuePage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/board',
+    element: (
+      <ProtectedRoute>
+        <LiveBoardPage />
       </ProtectedRoute>
     ),
   },

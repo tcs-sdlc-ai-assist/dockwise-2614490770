@@ -449,6 +449,102 @@ label {
   border-bottom: 1px solid var(--border);
 }
 
+/* Live board. */
+.board-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.board-site-field {
+  min-width: 220px;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .board-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.board-column-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.board-column-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.board-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left-width: 3px;
+  border-radius: var(--radius-sm);
+  padding: 0.625rem 0.75rem;
+}
+
+.board-card-green {
+  border-left-color: var(--success-fg);
+}
+
+.board-card-amber {
+  border-left-color: var(--warning-fg);
+}
+
+.board-card-red {
+  border-left-color: var(--error-fg);
+}
+
+.board-card-purple {
+  border-left-color: #6b4fa3;
+}
+
+.board-card-requested {
+  border-style: dashed;
+}
+
+.board-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.board-card-door {
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.board-card-body {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 0.375rem;
+}
+
+.board-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board-card-timing {
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+}
+
 /* Reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   * {

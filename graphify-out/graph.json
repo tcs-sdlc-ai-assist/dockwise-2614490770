@@ -1451,7 +1451,7 @@
       "label": "AppointmentsModule",
       "file_type": "code",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L20",
+      "source_location": "L23",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast"
@@ -1729,6 +1729,32 @@
       "_origin": "ast"
     },
     {
+      "id": "backend_src_modules_appointments_dto_counter_dto",
+      "label": "counter.dto.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/dto/counter.dto.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_counter_dto_counterdto",
+      "label": "CounterDto",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/dto/counter.dto.ts",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_counter_dto_ts_isdatestring",
+      "label": "IsDateString",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_modules_appointments_dto_create_appointment_dto",
       "label": "create-appointment.dto.ts",
       "file_type": "code",
@@ -1855,6 +1881,421 @@
     {
       "id": "backend_src_modules_appointments_dto_query_availability_dto_ts_isenum",
       "label": "IsEnum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_reassign_dto",
+      "label": "reassign.dto.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_reassign_dto_declinedto",
+      "label": "DeclineDto",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_reassign_dto_ts_isstring",
+      "label": "IsString",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_reassign_dto_reassigndto",
+      "label": "ReassignDto",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_reassign_dto_ts_isuuid",
+      "label": "IsUUID",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_dto_reassign_dto_ts_isenum",
+      "label": "IsEnum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_spec",
+      "label": "queue.controller.spec.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_spec_makerequested",
+      "label": "makeRequested()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L84",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller",
+      "label": "queue.controller.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "label": "QueueController",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L27",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_ts_controller",
+      "label": "Controller",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_ts_get",
+      "label": "Get",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_ts_query",
+      "label": "Query",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_ts_post",
+      "label": "Post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_ts_httpcode",
+      "label": "HttpCode",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_ts_param",
+      "label": "Param",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_ts_body",
+      "label": "Body",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L28",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_list",
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L40",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_exceptions",
+      "label": ".exceptions()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L54",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_confirm",
+      "label": ".confirm()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L69",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "label": ".decline()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L85",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "label": ".counter()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L104",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "label": ".reassign()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L128",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_controller_queuecontroller_history",
+      "label": ".history()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L146",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_spec",
+      "label": "queue.service.spec.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_spec_makeappointment",
+      "label": "makeAppointment()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L80",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service",
+      "label": "queue.service.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice",
+      "label": "QueueService",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L24",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_ts_injectable",
+      "label": "Injectable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_ts_injectrepository",
+      "label": "InjectRepository",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_queue",
+      "label": ".queue()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L46",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_confirm",
+      "label": ".confirm()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L70",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_decline",
+      "label": ".decline()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L103",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_counter",
+      "label": ".counter()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L121",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_reassign",
+      "label": ".reassign()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L152",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_reassignmenthistory",
+      "label": ".reassignmentHistory()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L199",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_exceptions",
+      "label": ".exceptions()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L218",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_queue_service_queueservice_findorfail",
+      "label": ".findOrFail()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L247",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity",
+      "label": "reassignment.entity.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity_reassignmentreason",
+      "label": "ReassignmentReason",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "label": "Reassignment",
+      "file_type": "code",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L25",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity_ts_entity",
+      "label": "Entity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity_ts_primarygeneratedcolumn",
+      "label": "PrimaryGeneratedColumn",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity_ts_index",
+      "label": "Index",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity_ts_column",
+      "label": "Column",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_appointments_reassignment_entity_ts_createdatecolumn",
+      "label": "CreateDateColumn",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
@@ -4210,6 +4651,14 @@
       "_origin": "ast"
     },
     {
+      "id": "e2e_coordinator_spec",
+      "label": "coordinator.spec.ts",
+      "file_type": "code",
+      "source_file": "e2e/coordinator.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "e2e_site_config_spec",
       "label": "site-config.spec.ts",
       "file_type": "code",
@@ -4782,6 +5231,87 @@
       "community": 2
     },
     {
+      "id": "frontend_src_api_queue",
+      "label": "queue.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_reassignment",
+      "label": "Reassignment",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_getqueue",
+      "label": "getQueue()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L19",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_getexceptions",
+      "label": "getExceptions()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L27",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_confirmappointment",
+      "label": "confirmAppointment()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L35",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_declineappointment",
+      "label": "declineAppointment()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L41",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_counterappointment",
+      "label": "counterAppointment()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L52",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_reassignappointment",
+      "label": "reassignAppointment()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L65",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_queue_getreassignments",
+      "label": "getReassignments()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L78",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_api_sites",
       "label": "sites.ts",
       "file_type": "code",
@@ -5263,6 +5793,117 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_features_coordinator_exceptionspanel",
+      "label": "ExceptionsPanel.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/ExceptionsPanel.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_exceptionspanel_exceptionspanel",
+      "label": "ExceptionsPanel()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/ExceptionsPanel.tsx",
+      "source_location": "L19",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_queuepage_test",
+      "label": "QueuePage.test.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_queuepage_test_site",
+      "label": "site",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_queuepage_test_requestedappt",
+      "label": "requestedAppt",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_queuepage_test_renderpage",
+      "label": "renderPage()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L59",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_queuepage_test_selectsite",
+      "label": "selectSite()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L79",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_queuepage",
+      "label": "QueuePage.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_queuepage_queuepage",
+      "label": "QueuePage()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_reassigndialog",
+      "label": "ReassignDialog.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_reassigndialog_reassigndialogprops",
+      "label": "ReassignDialogProps",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_reassigndialog_reasons",
+      "label": "REASONS",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_coordinator_reassigndialog_reassigndialog",
+      "label": "ReassignDialog()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L35",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_home_homepage",
       "label": "HomePage.tsx",
       "file_type": "code",
@@ -5323,7 +5964,7 @@
       "label": "router",
       "file_type": "code",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L17",
+      "source_location": "L18",
       "_origin": "ast",
       "community": 2
     },
@@ -5332,7 +5973,7 @@
       "label": "AppRouter()",
       "file_type": "code",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L74",
+      "source_location": "L83",
       "_callable": true,
       "_origin": "ast",
       "community": 2
@@ -8585,12 +9226,34 @@
     },
     {
       "source": "backend_src_modules_appointments_appointments_module",
-      "target": "backend_src_modules_sites_door_entity",
+      "target": "backend_src_modules_appointments_reassignment_entity",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
       "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_module",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.module.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_module",
+      "target": "backend_src_modules_sites_door_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.module.ts",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8601,7 +9264,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8612,7 +9275,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8623,7 +9286,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8634,7 +9297,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8645,7 +9308,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8656,7 +9319,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8667,7 +9330,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8678,7 +9341,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8689,7 +9352,51 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L12",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_module",
+      "target": "backend_src_modules_appointments_queue_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.module.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_module",
+      "target": "backend_src_modules_appointments_queue_service_queueservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.module.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_module",
+      "target": "backend_src_modules_appointments_queue_controller",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.module.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_module",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.module.ts",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8699,7 +9406,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L20",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8709,7 +9416,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/appointments.module.ts",
-      "source_location": "L14",
+      "source_location": "L17",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast"
@@ -9860,6 +10567,38 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_modules_appointments_dto_counter_dto",
+      "target": "backend_src_modules_appointments_dto_counter_dto_counterdto",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/counter.dto.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_counter_dto_counterdto",
+      "target": "backend_src_modules_appointments_dto_counter_dto_ts_isdatestring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/counter.dto.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_counter_dto_counterdto",
+      "target": "backend_src_modules_appointments_dto_counter_dto_ts_isdatestring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/counter.dto.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_modules_appointments_dto_create_appointment_dto",
       "target": "backend_src_modules_appointments_appointment_enums",
       "relation": "imports_from",
@@ -10293,6 +11032,1521 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/dto/query-availability.dto.ts",
       "source_location": "L25",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto",
+      "target": "backend_src_modules_appointments_reassignment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignmentreason",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_declinedto",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto_declinedto",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_ts_isstring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_reassigndto",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto_reassigndto",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_ts_isuuid",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto_reassigndto",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_ts_isenum",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity_organizationtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_sites_site_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_sites_site_entity_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_sites_door_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_sites_door_entity_door",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_sites_door_entity_doortype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_appointments_appointment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_test_utils_api_test_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_buildtestapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_seeduserwithrole",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_testcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_spec",
+      "target": "backend_src_modules_appointments_queue_controller_spec_makerequested",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.spec.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_queue_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_queue_service_queueservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_appointment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_reassignment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_dto_counter_dto",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_dto_counter_dto_counterdto",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_dto_reassign_dto",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_declinedto",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_reassigndto",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_common_decorators_roles_decorator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_common_decorators_roles_decorator_roles",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_common_decorators_current_user_decorator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_organizations_membership_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_organizations_membership_entity_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_auth_auth_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_auth_auth_service_authprincipal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_ts_controller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_common_decorators_roles_decorator_roles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_list",
+      "target": "backend_src_modules_appointments_queue_controller_ts_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_list",
+      "target": "backend_src_modules_appointments_queue_controller_ts_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_exceptions",
+      "target": "backend_src_modules_appointments_queue_controller_ts_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_exceptions",
+      "target": "backend_src_modules_appointments_queue_controller_ts_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_confirm",
+      "target": "backend_src_modules_appointments_queue_controller_ts_post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L67",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_confirm",
+      "target": "backend_src_modules_appointments_queue_controller_ts_httpcode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L68",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_confirm",
+      "target": "backend_src_modules_appointments_queue_controller_ts_param",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "target": "backend_src_modules_appointments_queue_controller_ts_post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "target": "backend_src_modules_appointments_queue_controller_ts_httpcode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "target": "backend_src_modules_appointments_queue_controller_ts_param",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "target": "backend_src_modules_appointments_queue_controller_ts_body",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "target": "backend_src_modules_appointments_queue_controller_ts_post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L102",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "target": "backend_src_modules_appointments_queue_controller_ts_httpcode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "target": "backend_src_modules_appointments_queue_controller_ts_param",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L105",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "target": "backend_src_modules_appointments_queue_controller_ts_body",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L106",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_appointments_queue_controller_ts_post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L126",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_appointments_queue_controller_ts_httpcode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L127",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_appointments_queue_controller_ts_param",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_appointments_queue_controller_ts_body",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L130",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L131",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_history",
+      "target": "backend_src_modules_appointments_queue_controller_ts_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L145",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_history",
+      "target": "backend_src_modules_appointments_queue_controller_ts_param",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L146",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_list",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_exceptions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_confirm",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller",
+      "target": "backend_src_modules_appointments_queue_controller_queuecontroller_history",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_queue_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_queue_service_queueservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_availability_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_appointment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_appointment_enums",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_appointment_enums_appointmentstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_appointment_enums_activitytype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_reassignment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignmentreason",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_sites_door_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_sites_door_entity_door",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_sites_door_entity_doorstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_sites_door_entity_doortype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_sites_site_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_sites_site_entity_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_test_utils_test_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_test_utils_test_db_newtestdatasource",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_spec",
+      "target": "backend_src_modules_appointments_queue_service_spec_makeappointment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.spec.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_appointment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_appointment_enums",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_appointment_enums_appointmentstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_reassignment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignmentreason",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_availability_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_sites_door_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_sites_door_entity_door",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_sites_door_entity_doorstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_sites_site_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_sites_site_entity_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service",
+      "target": "backend_src_modules_appointments_queue_service_queueservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_ts_injectable",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_appointments_queue_service_ts_injectrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_appointments_queue_service_ts_injectrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_appointments_queue_service_ts_injectrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_appointments_queue_service_ts_injectrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_queue",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_confirm",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_decline",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_counter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_reassign",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_reassignmenthistory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L199",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_exceptions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L218",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_findorfail",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L247",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_confirm",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_findorfail",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_decline",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_findorfail",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_counter",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_findorfail",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_reassign",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_findorfail",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignmentreason",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_entity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_primarygeneratedcolumn",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "target": "backend_src_modules_appointments_reassignment_entity_ts_createdatecolumn",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/reassignment.entity.ts",
+      "source_location": "L52",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast"
@@ -16657,6 +18911,130 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_client_apiclient",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_appointments",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_appointments_appointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_reassignment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_getqueue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_getexceptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_confirmappointment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_declineappointment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_counterappointment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_reassignappointment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_queue",
+      "target": "frontend_src_api_queue_getreassignments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/queue.ts",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_api_sites",
       "target": "frontend_src_api_client",
       "relation": "imports_from",
@@ -17830,6 +20208,305 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_features_coordinator_exceptionspanel",
+      "target": "frontend_src_api_queue",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ExceptionsPanel.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_exceptionspanel",
+      "target": "frontend_src_api_queue_getexceptions",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ExceptionsPanel.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_exceptionspanel",
+      "target": "frontend_src_features_coordinator_exceptionspanel_exceptionspanel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ExceptionsPanel.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_features_coordinator_queuepage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_features_coordinator_queuepage_queuepage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_api_sites",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_api_queue",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_features_coordinator_queuepage_test_site",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_features_coordinator_queuepage_test_requestedappt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_features_coordinator_queuepage_test_renderpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_test",
+      "target": "frontend_src_features_coordinator_queuepage_test_selectsite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.test.tsx",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_api_sites",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_api_sites_listsites",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_api_queue",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_api_queue_getqueue",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_api_queue_confirmappointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_api_queue_declineappointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_api_queue_reassignappointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_features_coordinator_exceptionspanel",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_features_coordinator_exceptionspanel_exceptionspanel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_features_coordinator_reassigndialog",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_features_coordinator_reassigndialog_reassigndialog",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage",
+      "target": "frontend_src_features_coordinator_queuepage_queuepage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_reassigndialog",
+      "target": "frontend_src_api_sites",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_reassigndialog",
+      "target": "frontend_src_api_sites_listdoors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_reassigndialog",
+      "target": "frontend_src_features_coordinator_reassigndialog_reassigndialogprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_reassigndialog",
+      "target": "frontend_src_features_coordinator_reassigndialog_reasons",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_reassigndialog",
+      "target": "frontend_src_features_coordinator_reassigndialog_reassigndialog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_features_home_homepage",
       "target": "frontend_src_auth_authcontext",
       "relation": "imports_from",
@@ -18082,11 +20759,33 @@
     },
     {
       "source": "frontend_src_router",
+      "target": "frontend_src_features_coordinator_queuepage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/router.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_router",
+      "target": "frontend_src_features_coordinator_queuepage_queuepage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/router.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_router",
       "target": "frontend_src_router_router",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -18096,7 +20795,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L74",
+      "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -19007,6 +21706,303 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/appointments/dto/query-availability.dto.ts",
       "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_dto_reassign_dto_reassigndto",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignmentreason",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/reassign.dto.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_constructor",
+      "target": "backend_src_modules_appointments_queue_service_queueservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_list",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_exceptions",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_confirm",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_declinedto",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "target": "backend_src_modules_appointments_dto_counter_dto_counterdto",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_appointments_dto_reassign_dto_reassigndto",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_auth_auth_service_authprincipal",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_history",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_sites_door_entity_door",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_sites_site_entity_site",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_constructor",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_queue",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_confirm",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_decline",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_counter",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_reassign",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignmentreason",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_reassign",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_reassignmenthistory",
+      "target": "backend_src_modules_appointments_reassignment_entity_reassignment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L199",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_exceptions",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L218",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_findorfail",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L247",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -20067,6 +23063,90 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_features_coordinator_exceptionspanel_exceptionspanel",
+      "target": "frontend_src_api_queue_getexceptions",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/features/coordinator/ExceptionsPanel.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_queuepage",
+      "target": "frontend_src_api_sites_listsites",
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_queuepage",
+      "target": "frontend_src_api_queue_getqueue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_queuepage",
+      "target": "frontend_src_api_queue_confirmappointment",
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_queuepage",
+      "target": "frontend_src_api_queue_declineappointment",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_queuepage_queuepage",
+      "target": "frontend_src_api_queue_reassignappointment",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/features/coordinator/QueuePage.tsx",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_coordinator_reassigndialog_reassigndialog",
+      "target": "frontend_src_api_sites_listdoors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/features/coordinator/ReassignDialog.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_features_home_homepage_homepage",
       "target": "frontend_src_auth_authcontext_useauth",
       "relation": "calls",
@@ -20219,6 +23299,114 @@
       "confidence_score": 1.0,
       "source_file": "backend/src/modules/appointments/appointments.service.ts",
       "source_location": "L198",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_list",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_queue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_exceptions",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_exceptions",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_confirm",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_confirm",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_decline",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_decline",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_counter",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_counter",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_reassign",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_reassign",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_controller_queuecontroller_history",
+      "target": "backend_src_modules_appointments_queue_service_queueservice_reassignmenthistory",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.controller.ts",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_confirm",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice_isintervalfree",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_appointments_queue_service_queueservice_reassign",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice_isintervalfree",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/appointments/queue.service.ts",
+      "source_location": "L166",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -20390,8 +23578,8 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_create",
-      "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
+      "_src": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_create"
     },
     {
       "source": "backend_src_common_decorators_current_user_decorator_currentuser",
@@ -20403,7 +23591,72 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_list",
+      "_src": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_list"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L146",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L110",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L91",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
       "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
     },
     {
@@ -20430,8 +23683,8 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_create",
-      "_tgt": "backend_src_common_decorators_roles_decorator_roles"
+      "_src": "backend_src_common_decorators_roles_decorator_roles",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_create"
     },
     {
       "source": "backend_src_common_decorators_roles_decorator_roles",
@@ -20443,8 +23696,8 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_import",
-      "_tgt": "backend_src_common_decorators_roles_decorator_roles"
+      "_src": "backend_src_common_decorators_roles_decorator_roles",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_import"
     },
     {
       "source": "backend_src_common_decorators_roles_decorator_roles",
@@ -20456,8 +23709,8 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_inservice",
-      "_tgt": "backend_src_common_decorators_roles_decorator_roles"
+      "_src": "backend_src_common_decorators_roles_decorator_roles",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_inservice"
     },
     {
       "source": "backend_src_common_decorators_roles_decorator_roles",
@@ -20469,8 +23722,8 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_outofservice",
-      "_tgt": "backend_src_common_decorators_roles_decorator_roles"
+      "_src": "backend_src_common_decorators_roles_decorator_roles",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_outofservice"
     },
     {
       "source": "backend_src_common_decorators_roles_decorator_roles",
@@ -20482,8 +23735,8 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_create",
-      "_tgt": "backend_src_common_decorators_roles_decorator_roles"
+      "_src": "backend_src_common_decorators_roles_decorator_roles",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_create"
     },
     {
       "source": "backend_src_common_decorators_roles_decorator_roles",
@@ -20495,8 +23748,8 @@
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_golive",
-      "_tgt": "backend_src_common_decorators_roles_decorator_roles"
+      "_src": "backend_src_common_decorators_roles_decorator_roles",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_golive"
     },
     {
       "source": "backend_src_common_guards_jwt_auth_guard_public",
@@ -20552,6 +23805,448 @@
       "_origin": "ast",
       "_src": "backend_src_health_controller_healthcontroller_health",
       "_tgt": "backend_src_health_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_service_appointmentsservice_cancel",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.service.ts",
+      "source_location": "L308",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_service_appointmentsservice_cancel",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_service_appointmentsservice_constructor",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.service.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_service_appointmentsservice_constructor",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_service_appointmentsservice_create",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.service.ts",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_service_appointmentsservice_create",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_service_appointmentsservice_findscoped",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.service.ts",
+      "source_location": "L230",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_service_appointmentsservice_findscoped",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_service_appointmentsservice_listforprincipal",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.service.ts",
+      "source_location": "L268",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_service_appointmentsservice_listforprincipal",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_appointments_service_appointmentsservice_submit",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.service.ts",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_service_appointmentsservice_submit",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice_constructor",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/availability.service.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_availability_service_availabilityservice_constructor",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_enums_activitytype",
+      "target": "backend_src_modules_appointments_dto_create_appointment_dto_createappointmentdto",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/create-appointment.dto.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_dto_create_appointment_dto_createappointmentdto",
+      "_tgt": "backend_src_modules_appointments_appointment_enums_activitytype"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_enums_vehicletype",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice_availableslots",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/availability.service.ts",
+      "source_location": "L216",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_availability_service_availabilityservice_availableslots",
+      "_tgt": "backend_src_modules_appointments_appointment_enums_vehicletype"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_enums_vehicletype",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice_isavailable",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/availability.service.ts",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_availability_service_availabilityservice_isavailable",
+      "_tgt": "backend_src_modules_appointments_appointment_enums_vehicletype"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_enums_vehicletype",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice_isvehicleallowed",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/availability.service.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_availability_service_availabilityservice_isvehicleallowed",
+      "_tgt": "backend_src_modules_appointments_appointment_enums_vehicletype"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_enums_vehicletype",
+      "target": "backend_src_modules_appointments_dto_create_appointment_dto_createappointmentdto",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/create-appointment.dto.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_dto_create_appointment_dto_createappointmentdto",
+      "_tgt": "backend_src_modules_appointments_appointment_enums_vehicletype"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_enums_vehicletype",
+      "target": "backend_src_modules_appointments_dto_query_availability_dto_queryavailabilitydto",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/dto/query-availability.dto.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_dto_query_availability_dto_queryavailabilitydto",
+      "_tgt": "backend_src_modules_appointments_appointment_enums_vehicletype"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_injectrepository",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_constructor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_constructor",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_injectrepository"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_post",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_post"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_post",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_post"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_post",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L125",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_post"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_httpcode",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_httpcode"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_body",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_create",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_body"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_get",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L107",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_get",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_getavailability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_getavailability",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_get",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_query",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_getavailability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_getavailability",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_query"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_query",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L92",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_list",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_query"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_param",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L145",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_cancel",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_param"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_param",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L109",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_get",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_param"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_controller_ts_param",
+      "target": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.controller.ts",
+      "source_location": "L127",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_controller_appointmentscontroller_submit",
+      "_tgt": "backend_src_modules_appointments_appointments_controller_ts_param"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointments_service_ts_injectrepository",
+      "target": "backend_src_modules_appointments_appointments_service_appointmentsservice_constructor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/appointments.service.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_appointments_service_appointmentsservice_constructor",
+      "_tgt": "backend_src_modules_appointments_appointments_service_ts_injectrepository"
+    },
+    {
+      "source": "backend_src_modules_appointments_availability_service_ts_injectrepository",
+      "target": "backend_src_modules_appointments_availability_service_availabilityservice_constructor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/appointments/availability.service.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_appointments_availability_service_availabilityservice_constructor",
+      "_tgt": "backend_src_modules_appointments_availability_service_ts_injectrepository"
     },
     {
       "source": "backend_src_modules_auth_auth_controller_ts_post",
@@ -20629,8 +24324,8 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_create",
-      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_create"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
@@ -20642,8 +24337,8 @@
       "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_list",
-      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_list"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
@@ -20655,8 +24350,8 @@
       "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_create",
-      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_create"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
@@ -20668,8 +24363,8 @@
       "source_location": "L70",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_listforprincipal",
-      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_listforprincipal"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authservice",
@@ -20894,6 +24589,19 @@
       "_tgt": "backend_src_modules_organizations_organizations_controller_ts_get"
     },
     {
+      "source": "backend_src_modules_organizations_organizations_controller_ts_query",
+      "target": "backend_src_modules_organizations_organizations_controller_organizationscontroller_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_organizations_organizations_controller_organizationscontroller_list",
+      "_tgt": "backend_src_modules_organizations_organizations_controller_ts_query"
+    },
+    {
       "source": "backend_src_modules_organizations_organizations_controller_ts_post",
       "target": "backend_src_modules_organizations_organizations_controller_organizationscontroller_create",
       "relation": "references",
@@ -20955,8 +24663,8 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_dto_create_door_dto_createdoordto",
-      "_tgt": "backend_src_modules_sites_door_entity_doortype"
+      "_src": "backend_src_modules_sites_door_entity_doortype",
+      "_tgt": "backend_src_modules_sites_dto_create_door_dto_createdoordto"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -20968,8 +24676,8 @@
       "source_location": "L46",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_create",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_create"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -20981,8 +24689,8 @@
       "source_location": "L66",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_import",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_import"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -20994,8 +24702,8 @@
       "source_location": "L117",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_inservice",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_inservice"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21007,8 +24715,8 @@
       "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_list",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_list"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21020,8 +24728,8 @@
       "source_location": "L99",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_controller_doorscontroller_outofservice",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_controller_doorscontroller_outofservice"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21033,8 +24741,8 @@
       "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_service_doorsservice_constructor",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_service_doorsservice_constructor"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21046,8 +24754,8 @@
       "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_service_doorsservice_create",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_service_doorsservice_create"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21059,8 +24767,8 @@
       "source_location": "L104",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_service_doorsservice_findbyid",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_service_doorsservice_findbyid"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21072,8 +24780,8 @@
       "source_location": "L66",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_service_doorsservice_import",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_service_doorsservice_import"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21085,8 +24793,8 @@
       "source_location": "L94",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_service_doorsservice_listforsite",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_service_doorsservice_listforsite"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21098,8 +24806,8 @@
       "source_location": "L138",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_service_doorsservice_setinservice",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_service_doorsservice_setinservice"
     },
     {
       "source": "backend_src_modules_sites_door_entity_door",
@@ -21111,8 +24819,8 @@
       "source_location": "L122",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_doors_service_doorsservice_setoutofservice",
-      "_tgt": "backend_src_modules_sites_door_entity_door"
+      "_src": "backend_src_modules_sites_door_entity_door",
+      "_tgt": "backend_src_modules_sites_doors_service_doorsservice_setoutofservice"
     },
     {
       "source": "backend_src_modules_sites_doors_controller_ts_post",
@@ -21332,8 +25040,8 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_dto_import_doors_dto_importdoorsdto",
-      "_tgt": "backend_src_modules_sites_dto_create_door_dto_createdoordto"
+      "_src": "backend_src_modules_sites_dto_create_door_dto_createdoordto",
+      "_tgt": "backend_src_modules_sites_dto_import_doors_dto_importdoorsdto"
     },
     {
       "source": "backend_src_modules_sites_dto_create_site_dto_createsitedto",
@@ -21345,8 +25053,8 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_create",
-      "_tgt": "backend_src_modules_sites_dto_create_site_dto_createsitedto"
+      "_src": "backend_src_modules_sites_dto_create_site_dto_createsitedto",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_create"
     },
     {
       "source": "backend_src_modules_sites_dto_create_site_dto_createsitedto",
@@ -21358,8 +25066,8 @@
       "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_create",
-      "_tgt": "backend_src_modules_sites_dto_create_site_dto_createsitedto"
+      "_src": "backend_src_modules_sites_dto_create_site_dto_createsitedto",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_create"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21371,8 +25079,8 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_create",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_create"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21384,8 +25092,8 @@
       "source_location": "L69",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_get",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_get"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21397,8 +25105,8 @@
       "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_golive",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_golive"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21410,8 +25118,8 @@
       "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_controller_sitescontroller_list",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_controller_sitescontroller_list"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21423,8 +25131,8 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_constructor",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_constructor"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21436,8 +25144,8 @@
       "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_create",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_create"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21449,8 +25157,8 @@
       "source_location": "L98",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_findbyid",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_findbyid"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21462,8 +25170,8 @@
       "source_location": "L115",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_golive",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_golive"
     },
     {
       "source": "backend_src_modules_sites_site_entity_site",
@@ -21475,8 +25183,8 @@
       "source_location": "L70",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_sites_sites_service_sitesservice_listforprincipal",
-      "_tgt": "backend_src_modules_sites_site_entity_site"
+      "_src": "backend_src_modules_sites_site_entity_site",
+      "_tgt": "backend_src_modules_sites_sites_service_sitesservice_listforprincipal"
     },
     {
       "source": "backend_src_modules_sites_sites_controller_ts_post",
@@ -21650,13 +25358,52 @@
       "confidence_score": 1.0,
       "_src": "backend_src_modules_users_users_service_ts_injectrepository",
       "_tgt": "backend_src_modules_users_users_service_usersservice_constructor"
+    },
+    {
+      "source": "frontend_src_api_appointments_availabilityslot",
+      "target": "frontend_src_features_booking_appointmentform_appointmentformprops",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/AppointmentForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_features_booking_appointmentform_appointmentformprops",
+      "_tgt": "frontend_src_api_appointments_availabilityslot"
+    },
+    {
+      "source": "frontend_src_api_appointments_availabilityslot",
+      "target": "frontend_src_features_booking_slotpicker_slotpickerprops",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/SlotPicker.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_features_booking_slotpicker_slotpickerprops",
+      "_tgt": "frontend_src_api_appointments_availabilityslot"
+    },
+    {
+      "source": "frontend_src_api_appointments_createappointmentinput",
+      "target": "frontend_src_features_booking_appointmentform_appointmentformprops",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/AppointmentForm.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_features_booking_appointmentform_appointmentformprops",
+      "_tgt": "frontend_src_api_appointments_createappointmentinput"
     }
   ],
   "metadata": {
-    "built_at": "2026-09-14T16:14:34.971900+00:00",
+    "built_at": "2026-09-14T16:33:42.036580+00:00",
     "version": "graph_update-v1",
     "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000114092614490770\\developer",
     "force": true,
-    "files_scanned": 95
+    "files_scanned": 108
   }
 }
