@@ -15,6 +15,8 @@ import { BookingPage } from './features/booking/BookingPage';
 import { MyAppointmentsPage } from './features/booking/MyAppointmentsPage';
 import { QueuePage } from './features/coordinator/QueuePage';
 import { LiveBoardPage } from './features/board/LiveBoardPage';
+import { GatePage } from './features/gate/GatePage';
+import { DockPage } from './features/dock/DockPage';
 
 const router = createBrowserRouter([
   {
@@ -78,6 +80,22 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <LiveBoardPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/gate',
+    element: (
+      <ProtectedRoute>
+        <GatePage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/dock',
+    element: (
+      <ProtectedRoute>
+        <DockPage />
       </ProtectedRoute>
     ),
   },

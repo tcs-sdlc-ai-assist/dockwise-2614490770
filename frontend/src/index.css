@@ -545,6 +545,67 @@ label {
   font-variant-numeric: tabular-nums;
 }
 
+/* Gate / dock shared-device surfaces: high-contrast, large tap targets. */
+.gate-page {
+  max-width: 720px;
+}
+
+.gate-panel {
+  margin-bottom: 1rem;
+}
+
+.gate-search {
+  font-size: 1.25rem;
+  padding: 0.875rem 1rem;
+  min-height: 48px;
+}
+
+.btn-large {
+  min-height: 48px;
+  min-width: 48px;
+  font-size: 1.0625rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.gate-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gate-results li {
+  margin-bottom: 0.5rem;
+}
+
+.gate-result {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.875rem 1rem;
+  min-height: 48px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.gate-result:hover {
+  background: var(--surface-raised);
+}
+
+.gate-message {
+  font-size: 1rem;
+  margin-top: 0.75rem;
+}
+
+.dock-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
 /* Reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   * {
