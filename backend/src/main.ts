@@ -11,7 +11,6 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { config } from './config/configuration';
 import { AppDataSource } from './config/database.module';
-import { seed } from './database/seed';
 import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 
 /**
@@ -21,12 +20,10 @@ import { HttpExceptionFilter } from './common/filters/http-exception.filter';
  *   Resolves when the server is listening.
  */
 async function bootstrap(): Promise<void> {
-  // Initialize the shared DataSource and seed demo data idempotently.
+  // Initialize the shared DataSource. Demo data is seeded idempotently by the
+  // root module's bootstrap hook (skipped for in-memory test databases).
   if (!AppDataSource.isInitialized) {
     await AppDataSource.initialize();
-  }
-  if (config.seedOnStartup) {
-    await seed(AppDataSource);
   }
 
   const app = await NestFactory.create(AppModule);

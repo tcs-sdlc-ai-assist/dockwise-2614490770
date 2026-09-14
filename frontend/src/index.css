@@ -313,6 +313,44 @@ label {
   margin-bottom: 1.5rem;
 }
 
+/* Data table: quiet header, hairline row dividers, tabular figures. */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.data-table th {
+  text-align: left;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--foreground-muted);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table td {
+  padding: 0.625rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-list {
+  list-style: none;
+  padding: 0;
+}
+
+.site-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.door-form {
+  margin-bottom: 1rem;
+}
+
 /* Reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   * {

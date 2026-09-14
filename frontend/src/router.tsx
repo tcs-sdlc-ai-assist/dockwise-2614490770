@@ -9,6 +9,8 @@ import { LandingPage } from './features/landing/LandingPage';
 import { LoginPage } from './features/auth/LoginPage';
 import { ProtectedRoute } from './auth/ProtectedRoute';
 import { HomePage } from './features/home/HomePage';
+import { SitesPage } from './features/admin/SitesPage';
+import { SiteDetailPage } from './features/admin/SiteDetailPage';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,22 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <HomePage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/admin/sites',
+    element: (
+      <ProtectedRoute>
+        <SitesPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/admin/sites/:siteId',
+    element: (
+      <ProtectedRoute>
+        <SiteDetailPage />
       </ProtectedRoute>
     ),
   },

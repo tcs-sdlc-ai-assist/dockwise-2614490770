@@ -7,6 +7,7 @@
   "transform": {
     "^.+\\.ts$": ["ts-jest", { "tsconfig": "<rootDir>/../tsconfig.json", "isolatedModules": true }]
   },
+  "setupFiles": ["<rootDir>/test-utils/jest-setup.ts"],
   "testTimeout": 30000,
   "maxWorkers": 1
 }

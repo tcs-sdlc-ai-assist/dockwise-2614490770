@@ -5,13 +5,17 @@
  * versioned under /api/v1; the health endpoint is mounted separately at
  * /api/health.
  */
-import { Module } from '@nestjs/common';
+import { Module, OnApplicationBootstrap } from '@nestjs/common';
 import { APP_GUARD } from '@nestjs/core';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { DataSource } from 'typeorm';
 import { AppDataSource } from './config/database.module';
+import { config } from './config/configuration';
+import { seed } from './database/seed';
 import { AuthModule } from './modules/auth/auth.module';
 import { UsersModule } from './modules/users/users.module';
 import { OrganizationsModule } from './modules/organizations/organizations.module';
+import { SitesModule } from './modules/sites/sites.module';
 import { JwtAuthGuard } from './common/guards/jwt-auth.guard';
 import { RolesGuard } from './common/guards/roles.guard';
 import { HealthController } from './health.controller';
@@ -25,6 +29,7 @@ import { HealthController } from './health.controller';
     AuthModule,
     UsersModule,
     OrganizationsModule,
+    SitesModule,
   ],
   controllers: [HealthController],
   providers: [
@@ -32,4 +37,19 @@ import { HealthController } from './health.controller';
     { provide: APP_GUARD, useClass: RolesGuard },
   ],
 })
-export class AppModule {}
+export class AppModule implements OnApplicationBootstrap {
+  constructor(private readonly dataSource: DataSource) {}
+
+  /**
+   * Seed demo data idempotently on bootstrap, except for in-memory test
+   * databases (tests control their own fixtures).
+   *
+   * Returns:
+   *   Resolves when seeding is complete or skipped.
+   */
+  async onApplicationBootstrap(): Promise<void> {
+    if (config.seedOnStartup && config.dbPath !== ':memory:') {
+      await seed(this.dataSource);
+    }
+  }
+}

@@ -5,8 +5,6 @@
  * Covers login success, wrong-password 401, validation 400, the authenticated
  * /me endpoint, and the unauthenticated 401 boundary.
  */
-process.env.DB_PATH = ':memory:';
-
 import { INestApplication, ValidationPipe } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import { DataSource } from 'typeorm';
