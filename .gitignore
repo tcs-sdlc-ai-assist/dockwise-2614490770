@@ -28,3 +28,5 @@ test_report.yaml
 # Graphify AST cache (regenerates from source); keep graph.json/spec.json tracked
 graphify-out/cache/
 graphify-out/cost.json
+graphify-out/graphify-out/
+graphify-out/.graphify_*
