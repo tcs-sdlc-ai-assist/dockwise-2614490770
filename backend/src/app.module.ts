@@ -16,6 +16,7 @@ import { AuthModule } from './modules/auth/auth.module';
 import { UsersModule } from './modules/users/users.module';
 import { OrganizationsModule } from './modules/organizations/organizations.module';
 import { SitesModule } from './modules/sites/sites.module';
+import { AppointmentsModule } from './modules/appointments/appointments.module';
 import { JwtAuthGuard } from './common/guards/jwt-auth.guard';
 import { RolesGuard } from './common/guards/roles.guard';
 import { HealthController } from './health.controller';
@@ -30,6 +31,7 @@ import { HealthController } from './health.controller';
     UsersModule,
     OrganizationsModule,
     SitesModule,
+    AppointmentsModule,
   ],
   controllers: [HealthController],
   providers: [

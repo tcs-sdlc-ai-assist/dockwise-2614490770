@@ -11,6 +11,8 @@ import { ProtectedRoute } from './auth/ProtectedRoute';
 import { HomePage } from './features/home/HomePage';
 import { SitesPage } from './features/admin/SitesPage';
 import { SiteDetailPage } from './features/admin/SiteDetailPage';
+import { BookingPage } from './features/booking/BookingPage';
+import { MyAppointmentsPage } from './features/booking/MyAppointmentsPage';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +44,22 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <SiteDetailPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/book',
+    element: (
+      <ProtectedRoute>
+        <BookingPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/appointments',
+    element: (
+      <ProtectedRoute>
+        <MyAppointmentsPage />
       </ProtectedRoute>
     ),
   },
