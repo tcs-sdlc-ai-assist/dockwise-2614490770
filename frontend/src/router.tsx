@@ -17,6 +17,7 @@ import { QueuePage } from './features/coordinator/QueuePage';
 import { LiveBoardPage } from './features/board/LiveBoardPage';
 import { GatePage } from './features/gate/GatePage';
 import { DockPage } from './features/dock/DockPage';
+import { VisitDetailPage } from './features/visits/VisitDetailPage';
 
 const router = createBrowserRouter([
   {
@@ -96,6 +97,14 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <DockPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/visits/:visitId',
+    element: (
+      <ProtectedRoute>
+        <VisitDetailPage />
       </ProtectedRoute>
     ),
   },
