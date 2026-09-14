@@ -1,0 +1,41 @@
+# Dockwise docker-compose: frontend (nginx) + backend (NestJS + sql.js SQLite).
+# SQLite is file-backed inside the backend container, so no separate db service
+# is required. Services address each other by service name, never localhost.
+services:
+  backend:
+    build:
+      context: ./backend
+    image: dockwise-backend
+    environment:
+      PORT: "3001"
+      NODE_ENV: production
+      DB_PATH: /data/dockwise.db
+      JWT_SECRET: ${JWT_SECRET:-dev-secret-change-in-production}
+      JWT_EXPIRES_IN: 12h
+      DEVICE_SESSION_EXPIRES_IN: 16h
+      CORS_ORIGIN: http://localhost
+      SEED_ON_STARTUP: "true"
+      ENTRA_SSO_ENABLED: "false"
+      SMS_PROVIDER_API_KEY: ${SMS_PROVIDER_API_KEY:-dev-sms-key-change-in-production}
+      EMAIL_PROVIDER_API_KEY: ${EMAIL_PROVIDER_API_KEY:-dev-email-key-change-in-production}
+    volumes:
+      - backend-data:/data
+    ports:
+      - "3001:3001"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3001/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: ./frontend
+    image: dockwise-frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+volumes:
+  backend-data:
