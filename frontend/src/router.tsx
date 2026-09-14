@@ -13,6 +13,7 @@ import { SitesPage } from './features/admin/SitesPage';
 import { SiteDetailPage } from './features/admin/SiteDetailPage';
 import { BookingPage } from './features/booking/BookingPage';
 import { MyAppointmentsPage } from './features/booking/MyAppointmentsPage';
+import { QueuePage } from './features/coordinator/QueuePage';
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,14 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <MyAppointmentsPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/queue',
+    element: (
+      <ProtectedRoute>
+        <QueuePage />
       </ProtectedRoute>
     ),
   },

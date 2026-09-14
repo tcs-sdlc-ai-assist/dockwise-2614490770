@@ -410,6 +410,45 @@ label {
   width: auto;
 }
 
+/* Modal dialog. */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgb(16 20 21 / 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 50;
+}
+
+.modal {
+  width: 100%;
+  max-width: 440px;
+  box-shadow: var(--shadow-overlay);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.queue-actions .btn {
+  margin-right: 0.25rem;
+}
+
+.exception-list {
+  list-style: none;
+  padding: 0;
+}
+
+.exception-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
 /* Reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   * {
