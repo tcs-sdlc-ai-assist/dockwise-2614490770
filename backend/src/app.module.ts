@@ -20,6 +20,7 @@ import { AppointmentsModule } from './modules/appointments/appointments.module';
 import { VisitsModule } from './modules/visits/visits.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
 import { AuditModule } from './modules/audit/audit.module';
+import { ReportsModule } from './modules/reports/reports.module';
 import { JwtAuthGuard } from './common/guards/jwt-auth.guard';
 import { RolesGuard } from './common/guards/roles.guard';
 import { HealthController } from './health.controller';
@@ -38,6 +39,7 @@ import { HealthController } from './health.controller';
     VisitsModule,
     NotificationsModule,
     AuditModule,
+    ReportsModule,
   ],
   controllers: [HealthController],
   providers: [

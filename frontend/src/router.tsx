@@ -18,6 +18,8 @@ import { LiveBoardPage } from './features/board/LiveBoardPage';
 import { GatePage } from './features/gate/GatePage';
 import { DockPage } from './features/dock/DockPage';
 import { VisitDetailPage } from './features/visits/VisitDetailPage';
+import { SearchPage } from './features/reports/SearchPage';
+import { DashboardPage } from './features/reports/DashboardPage';
 
 const router = createBrowserRouter([
   {
@@ -105,6 +107,22 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <VisitDetailPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/search',
+    element: (
+      <ProtectedRoute>
+        <SearchPage />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: '/dashboard',
+    element: (
+      <ProtectedRoute>
+        <DashboardPage />
       </ProtectedRoute>
     ),
   },
