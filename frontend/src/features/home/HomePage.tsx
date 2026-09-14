@@ -6,6 +6,8 @@
  * by later slices.
  */
 import { useAuth } from '../../auth/AuthContext';
+import { NotificationBell } from '../../components/NotificationBell';
+import { ImpersonationBanner } from '../../components/ImpersonationBanner';
 
 /**
  * Render the authenticated home page.
@@ -18,11 +20,15 @@ export function HomePage() {
 
   return (
     <main className="app-page">
+      <ImpersonationBanner />
       <header className="app-header">
         <h1>Dockwise</h1>
-        <button type="button" className="btn btn-secondary" onClick={logout}>
-          Sign out
-        </button>
+        <div className="app-header-actions">
+          <NotificationBell />
+          <button type="button" className="btn btn-secondary" onClick={logout}>
+            Sign out
+          </button>
+        </div>
       </header>
       <section className="card">
         <h2>Welcome, {user?.fullName}</h2>

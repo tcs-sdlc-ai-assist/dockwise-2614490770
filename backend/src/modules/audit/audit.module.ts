@@ -1,0 +1,14 @@
+/**
+ * Audit module: registers the immutable audit log and the audit service.
+ */
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { AuditLog } from './audit-log.entity';
+import { AuditService } from './audit.service';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([AuditLog])],
+  providers: [AuditService],
+  exports: [AuditService, TypeOrmModule],
+})
+export class AuditModule {}
