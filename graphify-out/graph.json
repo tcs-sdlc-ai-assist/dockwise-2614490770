@@ -1088,7 +1088,7 @@
       "label": "SeedUserSpec",
       "file_type": "code",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L23",
+      "source_location": "L31",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
@@ -1099,7 +1099,7 @@
       "label": "insertIfAbsent()",
       "file_type": "code",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L39",
+      "source_location": "L47",
       "_callable": true,
       "_origin": "ast",
       "community": 7
@@ -1109,7 +1109,7 @@
       "label": "seed()",
       "file_type": "code",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L59",
+      "source_location": "L67",
       "_callable": true,
       "_origin": "ast",
       "community": 7
@@ -3012,6 +3012,14 @@
       "community": 1
     },
     {
+      "id": "backend_src_modules_auth_impersonation_controller_spec",
+      "label": "impersonation.controller.spec.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_modules_auth_impersonation_controller",
       "label": "impersonation.controller.ts",
       "file_type": "code",
@@ -3210,6 +3218,14 @@
       "community": 1
     },
     {
+      "id": "backend_src_modules_auth_security_spec",
+      "label": "security.spec.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_modules_notifications_email_service",
       "label": "email.service.ts",
       "file_type": "code",
@@ -3405,6 +3421,14 @@
       "file_type": "code",
       "source_file": "",
       "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_modules_notifications_notifications_controller_spec",
+      "label": "notifications.controller.spec.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L1",
       "_origin": "ast"
     },
     {
@@ -3877,6 +3901,14 @@
       "source_location": "",
       "_origin": "ast",
       "community": 0
+    },
+    {
+      "id": "backend_src_modules_organizations_organizations_controller_spec",
+      "label": "organizations.controller.spec.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
     },
     {
       "id": "backend_src_modules_organizations_organizations_controller",
@@ -5640,6 +5672,14 @@
       "community": 11
     },
     {
+      "id": "backend_src_modules_users_users_service_spec",
+      "label": "users.service.spec.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_modules_users_users_service",
       "label": "users.service.ts",
       "file_type": "code",
@@ -7256,75 +7296,126 @@
       "community": 4
     },
     {
-      "id": "e2e_auth_spec",
+      "id": "frontend_e2e_auth_spec",
       "label": "auth.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/auth.spec.ts",
+      "source_file": "frontend/e2e/auth.spec.ts",
       "source_location": "L1",
-      "_origin": "ast",
-      "community": 15
+      "_origin": "ast"
     },
     {
-      "id": "e2e_booking_spec",
+      "id": "frontend_e2e_booking_spec",
       "label": "booking.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/booking.spec.ts",
+      "source_file": "frontend/e2e/booking.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
     {
-      "id": "e2e_coordinator_spec",
+      "id": "frontend_e2e_coordinator_spec",
       "label": "coordinator.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/coordinator.spec.ts",
+      "source_file": "frontend/e2e/coordinator.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
     {
-      "id": "e2e_detention_spec",
+      "id": "frontend_e2e_detention_spec",
       "label": "detention.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/detention.spec.ts",
+      "source_file": "frontend/e2e/detention.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
     {
-      "id": "e2e_gate_spec",
+      "id": "frontend_e2e_gate_spec",
       "label": "gate.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/gate.spec.ts",
+      "source_file": "frontend/e2e/gate.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
     {
-      "id": "e2e_live_board_spec",
+      "id": "frontend_e2e_helpers",
+      "label": "helpers.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_helpers_captureconsoleerrors",
+      "label": "captureConsoleErrors()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L18",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "label": "expectNoConsoleErrors()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L48",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_helpers_savescreenshot",
+      "label": "saveScreenshot()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L59",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_helpers_signin",
+      "label": "signIn()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L71",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_journey_spec",
+      "label": "journey.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/journey.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_live_board_spec",
       "label": "live-board.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/live-board.spec.ts",
+      "source_file": "frontend/e2e/live-board.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
     {
-      "id": "e2e_notifications_spec",
+      "id": "frontend_e2e_notifications_spec",
       "label": "notifications.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/notifications.spec.ts",
+      "source_file": "frontend/e2e/notifications.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
     {
-      "id": "e2e_reports_spec",
+      "id": "frontend_e2e_reports_spec",
       "label": "reports.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/reports.spec.ts",
+      "source_file": "frontend/e2e/reports.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
     {
-      "id": "e2e_site_config_spec",
+      "id": "frontend_e2e_site_config_spec",
       "label": "site-config.spec.ts",
       "file_type": "code",
-      "source_file": "e2e/site-config.spec.ts",
+      "source_file": "frontend/e2e/site-config.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
@@ -7733,6 +7824,14 @@
       "community": 6
     },
     {
+      "id": "frontend_playwright_config",
+      "label": "playwright.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_api_appointments",
       "label": "appointments.ts",
       "file_type": "code",
@@ -7895,7 +7994,7 @@
       "label": "getToken()",
       "file_type": "code",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L19",
+      "source_location": "L23",
       "_callable": true,
       "_origin": "ast",
       "community": 2
@@ -7905,7 +8004,7 @@
       "label": "setToken()",
       "file_type": "code",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L29",
+      "source_location": "L33",
       "_callable": true,
       "_origin": "ast",
       "community": 2
@@ -7915,17 +8014,93 @@
       "label": "clearToken()",
       "file_type": "code",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L34",
+      "source_location": "L38",
       "_callable": true,
       "_origin": "ast",
       "community": 2
+    },
+    {
+      "id": "frontend_src_api_client_queryparams",
+      "label": "QueryParams",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L45",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_client_requestoptions",
+      "label": "RequestOptions",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L48",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_client_apiresponse",
+      "label": "ApiResponse",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L53",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_client_apierror",
+      "label": "ApiError",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L59",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_client_apierror_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L63",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_client_buildurl",
+      "label": "buildUrl()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L72",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_client_handleunauthorized",
+      "label": "handleUnauthorized()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L89",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_api_client_request",
+      "label": "request()",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L100",
+      "_callable": true,
+      "_origin": "ast"
     },
     {
       "id": "frontend_src_api_client_apiclient",
       "label": "apiClient",
       "file_type": "code",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L41",
+      "source_location": "L140",
       "_origin": "ast",
       "community": 2
     },
@@ -8500,6 +8675,41 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2
+    },
+    {
+      "id": "frontend_src_components_applayout",
+      "label": "AppLayout.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_applayout_navitem",
+      "label": "NavItem",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_applayout_nav_items",
+      "label": "NAV_ITEMS",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_applayout_applayout",
+      "label": "AppLayout()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L39",
+      "_callable": true,
+      "_origin": "ast"
     },
     {
       "id": "frontend_src_components_impersonationbanner",
@@ -9202,7 +9412,7 @@
       "label": "HomePage()",
       "file_type": "code",
       "source_file": "frontend/src/features/home/HomePage.tsx",
-      "source_location": "L18",
+      "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
       "community": 2
@@ -9385,7 +9595,7 @@
       "label": "router",
       "file_type": "code",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L24",
+      "source_location": "L26",
       "_origin": "ast",
       "community": 2
     },
@@ -9394,7 +9604,7 @@
       "label": "AppRouter()",
       "file_type": "code",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L137",
+      "source_location": "L64",
       "_callable": true,
       "_origin": "ast",
       "community": 2
@@ -11444,11 +11654,154 @@
     },
     {
       "source": "backend_src_database_seed",
+      "target": "backend_src_modules_sites_site_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_sites_site_entity_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_sites_site_entity_sitestatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_sites_door_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_sites_door_entity_door",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_sites_door_entity_doortype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_appointments_appointment_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_appointments_appointment_entity_appointment",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_appointments_appointment_enums",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_appointments_appointment_enums_appointmentstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_appointments_appointment_enums_activitytype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_appointments_confirmation_code_util",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
+      "target": "backend_src_modules_appointments_confirmation_code_util_generateconfirmationcode",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_database_seed",
       "target": "backend_src_database_seed_seeduserspec",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L23",
+      "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11458,7 +11811,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L39",
+      "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11468,7 +11821,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L59",
+      "source_location": "L67",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11479,7 +11832,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L173",
+      "source_location": "L187",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -18420,6 +18773,116 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity_organizationtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_modules_users_user_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_modules_users_user_entity_user",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_test_utils_api_test_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_buildtestapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_seeduserwithrole",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_impersonation_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_testcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_modules_auth_impersonation_controller",
       "target": "backend_src_modules_auth_impersonation_service",
       "relation": "imports_from",
@@ -18904,6 +19367,116 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_modules_organizations_membership_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_modules_organizations_membership_entity_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_modules_organizations_organization_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_modules_organizations_organization_entity_organizationtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_modules_sites_site_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_modules_sites_site_entity_site",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_test_utils_api_test_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_test_utils_api_test_app_buildtestapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_test_utils_api_test_app_seeduserwithrole",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_auth_security_spec",
+      "target": "backend_src_test_utils_api_test_app_testcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/security.spec.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_modules_notifications_email_service",
       "target": "backend_src_modules_notifications_notification_outbox_entity",
       "relation": "imports_from",
@@ -19289,6 +19862,127 @@
       "source_location": "L54",
       "weight": 1.0,
       "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity_organizationtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_modules_notifications_notification_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_modules_notifications_notification_entity_notification",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_modules_notifications_notification_entity_notificationchannel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_test_utils_api_test_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_buildtestapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_seeduserwithrole",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_notifications_notifications_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_testcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0,
       "_origin": "ast"
     },
     {
@@ -20488,6 +21182,94 @@
       "source_location": "L47",
       "weight": 1.0,
       "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_modules_organizations_membership_entity_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_modules_organizations_organization_entity_organizationtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_test_utils_api_test_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_buildtestapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_seeduserwithrole",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_organizations_organizations_controller_spec",
+      "target": "backend_src_test_utils_api_test_app_testcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/organizations/organizations.controller.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
       "_origin": "ast"
     },
     {
@@ -26012,6 +26794,160 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_users_users_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_users_users_service_usersservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_users_user_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_users_user_entity_user",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_organizations_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_organizations_service_organizationsservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_organization_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_organization_entity_organization",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_organization_entity_organizationtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_membership_entity",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_membership_entity_membership",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_modules_organizations_membership_entity_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_test_utils_test_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_modules_users_users_service_spec",
+      "target": "backend_src_test_utils_test_db_newtestdatasource",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/users/users.service.spec.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_modules_users_users_service",
       "target": "backend_src_modules_users_user_entity",
       "relation": "imports_from",
@@ -31212,6 +32148,519 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_e2e_auth_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/auth.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_auth_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/auth.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_auth_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/auth.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_auth_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/auth.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_booking_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/booking.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_booking_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/booking.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_booking_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/booking.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_booking_spec",
+      "target": "frontend_e2e_helpers_savescreenshot",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/booking.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_booking_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/booking.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_coordinator_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/coordinator.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_coordinator_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/coordinator.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_coordinator_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/coordinator.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_coordinator_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/coordinator.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_detention_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/detention.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_detention_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/detention.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_detention_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/detention.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_detention_spec",
+      "target": "frontend_e2e_helpers_savescreenshot",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/detention.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_detention_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/detention.spec.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_gate_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/gate.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_gate_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/gate.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_gate_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/gate.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_gate_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/gate.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_helpers",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_helpers",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_helpers",
+      "target": "frontend_e2e_helpers_savescreenshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_helpers",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/helpers.ts",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_journey_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/journey.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_journey_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/journey.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_journey_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/journey.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_journey_spec",
+      "target": "frontend_e2e_helpers_savescreenshot",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/journey.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_journey_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/journey.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_live_board_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/live-board.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_live_board_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/live-board.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_live_board_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/live-board.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_live_board_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/live-board.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_notifications_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/notifications.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_notifications_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/notifications.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_notifications_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/notifications.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_notifications_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/notifications.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_reports_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/reports.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_reports_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/reports.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_reports_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/reports.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_reports_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/reports.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_site_config_spec",
+      "target": "frontend_e2e_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/site-config.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_site_config_spec",
+      "target": "frontend_e2e_helpers_captureconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/site-config.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_site_config_spec",
+      "target": "frontend_e2e_helpers_expectnoconsoleerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/site-config.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_site_config_spec",
+      "target": "frontend_e2e_helpers_signin",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/site-config.spec.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_package",
       "target": "frontend_package_name",
       "relation": "contains",
@@ -31902,7 +33351,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L19",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -31912,7 +33361,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L29",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -31922,7 +33371,87 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L34",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client",
+      "target": "frontend_src_api_client_queryparams",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client",
+      "target": "frontend_src_api_client_requestoptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client",
+      "target": "frontend_src_api_client_apiresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client",
+      "target": "frontend_src_api_client_apierror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client_apierror",
+      "target": "frontend_src_api_client_apierror_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client",
+      "target": "frontend_src_api_client_buildurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client",
+      "target": "frontend_src_api_client_handleunauthorized",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client",
+      "target": "frontend_src_api_client_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L100",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -31932,7 +33461,51 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/api/client.ts",
-      "source_location": "L41",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client_handleunauthorized",
+      "target": "frontend_src_api_client_cleartoken",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client_request",
+      "target": "frontend_src_api_client_buildurl",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client_request",
+      "target": "frontend_src_api_client_gettoken",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_api_client_request",
+      "target": "frontend_src_api_client_handleunauthorized",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api/client.ts",
+      "source_location": "L121",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -32760,6 +34333,124 @@
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/auth/ProtectedRoute.tsx",
       "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_auth_authcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_auth_authcontext_useauth",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_components_notificationbell",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_components_notificationbell_notificationbell",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_components_impersonationbanner",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_components_impersonationbanner_impersonationbanner",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_types_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_types_index_role",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_components_applayout_navitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_components_applayout_nav_items",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout",
+      "target": "frontend_src_components_applayout_applayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -34717,55 +36408,11 @@
     },
     {
       "source": "frontend_src_features_home_homepage",
-      "target": "frontend_src_components_notificationbell",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/home/HomePage.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_home_homepage",
-      "target": "frontend_src_components_notificationbell_notificationbell",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/home/HomePage.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_home_homepage",
-      "target": "frontend_src_components_impersonationbanner",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/home/HomePage.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_home_homepage",
-      "target": "frontend_src_components_impersonationbanner_impersonationbanner",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/home/HomePage.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_home_homepage",
       "target": "frontend_src_features_home_homepage_homepage",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/home/HomePage.tsx",
-      "source_location": "L18",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35249,7 +36896,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35260,7 +36907,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35271,7 +36918,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35282,7 +36929,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35293,7 +36940,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35304,7 +36951,29 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_router",
+      "target": "frontend_src_components_applayout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/router.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_router",
+      "target": "frontend_src_components_applayout_applayout",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/router.tsx",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35315,7 +36984,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L11",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35326,7 +36995,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L11",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35337,7 +37006,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L12",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35348,7 +37017,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L12",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35359,7 +37028,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L13",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35370,7 +37039,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L13",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35381,7 +37050,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L14",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35392,7 +37061,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L14",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35403,7 +37072,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L15",
+      "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35414,7 +37083,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L15",
+      "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35425,7 +37094,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L16",
+      "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35436,7 +37105,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L16",
+      "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35447,7 +37116,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L17",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35458,7 +37127,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L17",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35469,7 +37138,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L18",
+      "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35480,7 +37149,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L18",
+      "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35491,7 +37160,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L19",
+      "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35502,7 +37171,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L19",
+      "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35513,7 +37182,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L20",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35524,7 +37193,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L20",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35535,7 +37204,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L21",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35546,7 +37215,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L21",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35557,7 +37226,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L22",
+      "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35568,7 +37237,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L22",
+      "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35578,7 +37247,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L24",
+      "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35588,7 +37257,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/router.tsx",
-      "source_location": "L137",
+      "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -35948,7 +37617,7 @@
       "context": "field",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/database/seed.ts",
-      "source_location": "L26",
+      "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -38879,6 +40548,17 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_components_applayout_navitem",
+      "target": "frontend_src_types_index_role",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_features_board_boardcard_boardcardprops",
       "target": "frontend_src_api_board_boardcard",
       "relation": "references",
@@ -38957,6 +40637,18 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_database_seed_seed",
+      "target": "backend_src_modules_appointments_confirmation_code_util_generateconfirmationcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/database/seed.ts",
+      "source_location": "L243",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_modules_appointments_appointments_service_spec_bookerprincipal",
       "target": "backend_src_test_utils_make_principal_makeprincipal",
       "relation": "calls",
@@ -39013,6 +40705,18 @@
       "confidence_score": 1.0,
       "source_file": "frontend/src/auth/ProtectedRoute.tsx",
       "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_applayout_applayout",
+      "target": "frontend_src_auth_authcontext_useauth",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/AppLayout.tsx",
+      "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -39492,7 +41196,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/features/home/HomePage.tsx",
-      "source_location": "L19",
+      "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -40478,6 +42182,58 @@
     },
     {
       "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "_tgt": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_common_decorators_current_user_decorator_currentuser",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount"
+    },
+    {
+      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
       "target": "backend_src_modules_sites_sites_controller_sitescontroller_create",
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -40608,54 +42364,41 @@
     },
     {
       "source": "backend_src_common_decorators_current_user_decorator_currentuser",
-      "target": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/auth/impersonation.controller.ts",
-      "source_location": "L44",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L141",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
       "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
     },
     {
       "source": "backend_src_common_decorators_current_user_decorator_currentuser",
-      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
-      "source_location": "L31",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L82",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
       "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
     },
     {
       "source": "backend_src_common_decorators_current_user_decorator_currentuser",
-      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_search",
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
       "source_location": "L66",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread",
-      "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
-    },
-    {
-      "source": "backend_src_common_decorators_current_user_decorator_currentuser",
-      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
-      "source_location": "L46",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_search",
       "_tgt": "backend_src_common_decorators_current_user_decorator_currentuser"
     },
     {
@@ -40683,6 +42426,19 @@
       "_origin": "ast",
       "_src": "backend_src_common_decorators_roles_decorator_roles",
       "_tgt": "backend_src_modules_appointments_queue_controller_queuecontroller"
+    },
+    {
+      "source": "backend_src_common_decorators_roles_decorator_roles",
+      "target": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_common_decorators_roles_decorator_roles",
+      "_tgt": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start"
     },
     {
       "source": "backend_src_common_decorators_roles_decorator_roles",
@@ -40866,19 +42622,6 @@
       "_origin": "ast",
       "_src": "backend_src_common_decorators_roles_decorator_roles",
       "_tgt": "backend_src_modules_visits_visits_controller_visitscontroller_turnaway"
-    },
-    {
-      "source": "backend_src_common_decorators_roles_decorator_roles",
-      "target": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/auth/impersonation.controller.ts",
-      "source_location": "L40",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "_src": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
-      "_tgt": "backend_src_common_decorators_roles_decorator_roles"
     },
     {
       "source": "backend_src_common_guards_jwt_auth_guard_public",
@@ -41350,6 +43093,45 @@
       "_origin": "ast",
       "_src": "backend_src_modules_appointments_appointment_entity_appointment",
       "_tgt": "backend_src_modules_visits_visits_service_visitsservice_constructor"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_reports_dashboard_service_dashboardservice_constructor",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/dashboard.service.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_dashboard_service_dashboardservice_constructor",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
+    },
+    {
+      "source": "backend_src_modules_appointments_appointment_entity_appointment",
+      "target": "backend_src_modules_reports_reports_service_reportsservice_constructor",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.service.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_service_reportsservice_constructor",
+      "_tgt": "backend_src_modules_appointments_appointment_entity_appointment"
     },
     {
       "source": "backend_src_modules_appointments_appointment_enums_appointmentstatus",
@@ -42050,8 +43832,8 @@
       "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_audit_audit_service_auditservice_constructor",
-      "_tgt": "backend_src_modules_audit_audit_log_entity_auditlog"
+      "_src": "backend_src_modules_audit_audit_log_entity_auditlog",
+      "_tgt": "backend_src_modules_audit_audit_service_auditservice_constructor"
     },
     {
       "source": "backend_src_modules_audit_audit_log_entity_auditlog",
@@ -42063,8 +43845,8 @@
       "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_audit_audit_service_auditservice_list",
-      "_tgt": "backend_src_modules_audit_audit_log_entity_auditlog"
+      "_src": "backend_src_modules_audit_audit_log_entity_auditlog",
+      "_tgt": "backend_src_modules_audit_audit_service_auditservice_list"
     },
     {
       "source": "backend_src_modules_audit_audit_log_entity_auditlog",
@@ -42076,8 +43858,8 @@
       "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_audit_audit_service_auditservice_record",
-      "_tgt": "backend_src_modules_audit_audit_log_entity_auditlog"
+      "_src": "backend_src_modules_audit_audit_log_entity_auditlog",
+      "_tgt": "backend_src_modules_audit_audit_service_auditservice_record"
     },
     {
       "source": "backend_src_modules_audit_audit_service_auditservice",
@@ -42089,8 +43871,8 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_auth_impersonation_service_impersonationservice_constructor",
-      "_tgt": "backend_src_modules_audit_audit_service_auditservice"
+      "_src": "backend_src_modules_audit_audit_service_auditservice",
+      "_tgt": "backend_src_modules_auth_impersonation_service_impersonationservice_constructor"
     },
     {
       "source": "backend_src_modules_audit_audit_service_ts_injectrepository",
@@ -42159,6 +43941,32 @@
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
+      "target": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.controller.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authprincipal",
+      "target": "backend_src_modules_auth_impersonation_service_impersonationservice_start",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.service.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_auth_impersonation_service_impersonationservice_start"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authprincipal",
       "target": "backend_src_modules_auth_jwt_strategy_jwtstrategy_validate",
       "relation": "references",
       "context": "generic_arg",
@@ -42170,6 +43978,45 @@
       "confidence_score": 1.0,
       "_src": "backend_src_modules_auth_auth_service_authprincipal",
       "_tgt": "backend_src_modules_auth_jwt_strategy_jwtstrategy_validate"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authprincipal",
+      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authprincipal",
+      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authprincipal",
+      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_auth_auth_service_authprincipal",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
@@ -42355,68 +44202,81 @@
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
-      "target": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/auth/impersonation.controller.ts",
-      "source_location": "L42",
-      "weight": 1.0,
-      "_origin": "ast",
-      "_src": "backend_src_modules_auth_impersonation_controller_impersonationcontroller_start",
-      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
-    },
-    {
-      "source": "backend_src_modules_auth_auth_service_authprincipal",
-      "target": "backend_src_modules_auth_impersonation_service_impersonationservice_start",
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/auth/impersonation.service.ts",
-      "source_location": "L48",
-      "weight": 1.0,
-      "_origin": "ast",
-      "_src": "backend_src_modules_auth_impersonation_service_impersonationservice_start",
-      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
-    },
-    {
-      "source": "backend_src_modules_auth_auth_service_authprincipal",
-      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list",
+      "target": "backend_src_modules_reports_dashboard_service_dashboardservice_metrics",
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
-      "source_location": "L31",
+      "source_file": "backend/src/modules/reports/dashboard.service.ts",
+      "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list",
+      "_src": "backend_src_modules_reports_dashboard_service_dashboardservice_metrics",
       "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
-      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
+      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authprincipal",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authprincipal",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_search",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
       "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_search",
       "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authprincipal",
-      "target": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount",
+      "target": "backend_src_modules_reports_reports_service_reportsservice_search",
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/notifications/notifications.controller.ts",
-      "source_location": "L45",
+      "source_file": "backend/src/modules/reports/reports.service.ts",
+      "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_unreadcount",
+      "_src": "backend_src_modules_reports_reports_service_reportsservice_search",
       "_tgt": "backend_src_modules_auth_auth_service_authprincipal"
+    },
+    {
+      "source": "backend_src_modules_auth_auth_service_authservice",
+      "target": "backend_src_modules_auth_impersonation_service_impersonationservice_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/auth/impersonation.service.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_auth_auth_service_authservice",
+      "_tgt": "backend_src_modules_auth_impersonation_service_impersonationservice_constructor"
     },
     {
       "source": "backend_src_modules_auth_auth_service_authservice",
@@ -42431,19 +44291,6 @@
       "confidence_score": 1.0,
       "_src": "backend_src_modules_auth_auth_service_authservice",
       "_tgt": "backend_src_modules_auth_jwt_strategy_jwtstrategy_constructor"
-    },
-    {
-      "source": "backend_src_modules_auth_auth_service_authservice",
-      "target": "backend_src_modules_auth_impersonation_service_impersonationservice_constructor",
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/auth/impersonation.service.ts",
-      "source_location": "L26",
-      "weight": 1.0,
-      "_origin": "ast",
-      "_src": "backend_src_modules_auth_impersonation_service_impersonationservice_constructor",
-      "_tgt": "backend_src_modules_auth_auth_service_authservice"
     },
     {
       "source": "backend_src_modules_auth_auth_service_ts_injectrepository",
@@ -42520,8 +44367,8 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_service_notificationsservice_constructor",
-      "_tgt": "backend_src_modules_notifications_email_service_emailservice"
+      "_src": "backend_src_modules_notifications_email_service_emailservice",
+      "_tgt": "backend_src_modules_notifications_notifications_service_notificationsservice_constructor"
     },
     {
       "source": "backend_src_modules_notifications_email_service_ts_injectrepository",
@@ -42546,8 +44393,8 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_sms_service_smsservice_constructor",
-      "_tgt": "backend_src_modules_notifications_notification_outbox_entity_notificationoutbox"
+      "_src": "backend_src_modules_notifications_notification_outbox_entity_notificationoutbox",
+      "_tgt": "backend_src_modules_notifications_sms_service_smsservice_constructor"
     },
     {
       "source": "backend_src_modules_notifications_notification_outbox_entity_notificationoutbox",
@@ -42559,8 +44406,8 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_sms_service_smsservice_send",
-      "_tgt": "backend_src_modules_notifications_notification_outbox_entity_notificationoutbox"
+      "_src": "backend_src_modules_notifications_notification_outbox_entity_notificationoutbox",
+      "_tgt": "backend_src_modules_notifications_sms_service_smsservice_send"
     },
     {
       "source": "backend_src_modules_notifications_notification_entity_notification",
@@ -42572,8 +44419,8 @@
       "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list",
-      "_tgt": "backend_src_modules_notifications_notification_entity_notification"
+      "_src": "backend_src_modules_notifications_notification_entity_notification",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_list"
     },
     {
       "source": "backend_src_modules_notifications_notification_entity_notification",
@@ -42585,8 +44432,8 @@
       "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread",
-      "_tgt": "backend_src_modules_notifications_notification_entity_notification"
+      "_src": "backend_src_modules_notifications_notification_entity_notification",
+      "_tgt": "backend_src_modules_notifications_notifications_controller_notificationscontroller_markread"
     },
     {
       "source": "backend_src_modules_notifications_notification_entity_notification",
@@ -42598,8 +44445,8 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_service_notificationsservice_constructor",
-      "_tgt": "backend_src_modules_notifications_notification_entity_notification"
+      "_src": "backend_src_modules_notifications_notification_entity_notification",
+      "_tgt": "backend_src_modules_notifications_notifications_service_notificationsservice_constructor"
     },
     {
       "source": "backend_src_modules_notifications_notification_entity_notification",
@@ -42611,8 +44458,8 @@
       "source_location": "L161",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_service_notificationsservice_listforuser",
-      "_tgt": "backend_src_modules_notifications_notification_entity_notification"
+      "_src": "backend_src_modules_notifications_notification_entity_notification",
+      "_tgt": "backend_src_modules_notifications_notifications_service_notificationsservice_listforuser"
     },
     {
       "source": "backend_src_modules_notifications_notification_entity_notification",
@@ -42624,8 +44471,8 @@
       "source_location": "L178",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_service_notificationsservice_markread",
-      "_tgt": "backend_src_modules_notifications_notification_entity_notification"
+      "_src": "backend_src_modules_notifications_notification_entity_notification",
+      "_tgt": "backend_src_modules_notifications_notifications_service_notificationsservice_markread"
     },
     {
       "source": "backend_src_modules_notifications_notification_entity_notification",
@@ -42637,8 +44484,8 @@
       "source_location": "L37",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "backend_src_modules_notifications_notifications_service_notificationsservice_notifyinapp",
-      "_tgt": "backend_src_modules_notifications_notification_entity_notification"
+      "_src": "backend_src_modules_notifications_notification_entity_notification",
+      "_tgt": "backend_src_modules_notifications_notifications_service_notificationsservice_notifyinapp"
     },
     {
       "source": "backend_src_modules_notifications_notifications_controller_ts_get",
@@ -42990,6 +44837,241 @@
       "_origin": "ast",
       "_src": "backend_src_modules_organizations_organizations_service_organizationsservice_constructor",
       "_tgt": "backend_src_modules_organizations_organizations_service_ts_injectrepository"
+    },
+    {
+      "source": "backend_src_modules_reports_dashboard_service_dashboardmetrics",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
+      "_tgt": "backend_src_modules_reports_dashboard_service_dashboardmetrics"
+    },
+    {
+      "source": "backend_src_modules_reports_dashboard_service_dashboardservice",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "_tgt": "backend_src_modules_reports_dashboard_service_dashboardservice"
+    },
+    {
+      "source": "backend_src_modules_reports_dashboard_service_ts_injectrepository",
+      "target": "backend_src_modules_reports_dashboard_service_dashboardservice_constructor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/dashboard.service.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_dashboard_service_dashboardservice_constructor",
+      "_tgt": "backend_src_modules_reports_dashboard_service_ts_injectrepository"
+    },
+    {
+      "source": "backend_src_modules_reports_export_service_headers",
+      "target": "backend_src_modules_reports_export_service_exportservice_tocsv",
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/modules/reports/export.service.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_export_service_exportservice_tocsv",
+      "_tgt": "backend_src_modules_reports_export_service_headers"
+    },
+    {
+      "source": "backend_src_modules_reports_export_service_exportservice",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "_tgt": "backend_src_modules_reports_export_service_exportservice"
+    },
+    {
+      "source": "backend_src_modules_reports_pdf_service_pdfservice",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "_tgt": "backend_src_modules_reports_pdf_service_pdfservice"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_injectrepository",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_constructor",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_injectrepository"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_get",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L138",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_get",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_get",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_search",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_get",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_visitpdf",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L105",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_visitpdf",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_get"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_query",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L140",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_dashboardmetrics",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_query"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_query",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L81",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_query"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_query",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_search",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_query"
+    },
+    {
+      "source": "res",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_exportcsv",
+      "_tgt": "res"
+    },
+    {
+      "source": "res",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_visitpdf",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L106",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_visitpdf",
+      "_tgt": "res"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_controller_ts_param",
+      "target": "backend_src_modules_reports_reports_controller_reportscontroller_visitpdf",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.controller.ts",
+      "source_location": "L106",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_controller_reportscontroller_visitpdf",
+      "_tgt": "backend_src_modules_reports_reports_controller_ts_param"
+    },
+    {
+      "source": "backend_src_modules_reports_reports_service_ts_injectrepository",
+      "target": "backend_src_modules_reports_reports_service_reportsservice_constructor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/reports/reports.service.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "_src": "backend_src_modules_reports_reports_service_reportsservice_constructor",
+      "_tgt": "backend_src_modules_reports_reports_service_ts_injectrepository"
     },
     {
       "source": "backend_src_modules_sites_door_entity_doortype",
@@ -44661,10 +46743,10 @@
     }
   ],
   "metadata": {
-    "built_at": "2026-09-14T17:38:18.258880+00:00",
+    "built_at": "2026-09-15T08:15:23.548757+00:00",
     "version": "graph_update-v1",
-    "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000114092614490770\\developer",
+    "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000114092614490770\\devops\\repository",
     "force": true,
-    "files_scanned": 185
+    "files_scanned": 194
   }
 }

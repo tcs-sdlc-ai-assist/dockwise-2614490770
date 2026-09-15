@@ -47,10 +47,10 @@ export interface AppConfig {
  * Raises:
  *   Error: When the variable is missing and no fallback is provided.
  */
-function requireEnv(key: string, fallback?: string): string {
-  const value = process.env[key] ?? fallback;
+function requireJwtSecret(): string {
+  const value = process.env.JWT_SECRET;
   if (value === undefined || value === '') {
-    throw new Error(`Missing required environment variable: ${key}`);
+    throw new Error('Missing required environment variable: JWT_SECRET');
   }
   return value;
 }
@@ -63,23 +63,19 @@ function requireEnv(key: string, fallback?: string): string {
  */
 export function loadConfig(): AppConfig {
   return {
-    port: parseInt(requireEnv('PORT', '3001'), 10),
-    nodeEnv: requireEnv('NODE_ENV', 'development'),
-    dbPath: requireEnv('DB_PATH', 'dockwise.db'),
-    jwtSecret: requireEnv('JWT_SECRET'),
-    jwtExpiresIn: requireEnv('JWT_EXPIRES_IN', '12h'),
-    deviceSessionExpiresIn: requireEnv('DEVICE_SESSION_EXPIRES_IN', '16h'),
-    corsOrigin: requireEnv('CORS_ORIGIN', 'http://localhost:5173'),
-    seedOnStartup: requireEnv('SEED_ON_STARTUP', 'true') === 'true',
-    entraSsoEnabled: requireEnv('ENTRA_SSO_ENABLED', 'false') === 'true',
-    smsProviderApiKey: requireEnv(
-      'SMS_PROVIDER_API_KEY',
-      'dev-sms-key-change-in-production',
-    ),
-    emailProviderApiKey: requireEnv(
-      'EMAIL_PROVIDER_API_KEY',
-      'dev-email-key-change-in-production',
-    ),
+    port: parseInt(process.env.PORT ?? '3001', 10),
+    nodeEnv: process.env.NODE_ENV ?? 'development',
+    dbPath: process.env.DB_PATH ?? 'dockwise.db',
+    jwtSecret: requireJwtSecret(),
+    jwtExpiresIn: process.env.JWT_EXPIRES_IN ?? '12h',
+    deviceSessionExpiresIn: process.env.DEVICE_SESSION_EXPIRES_IN ?? '16h',
+    corsOrigin: process.env.CORS_ORIGIN ?? 'http://localhost:5173',
+    seedOnStartup: (process.env.SEED_ON_STARTUP ?? 'true') === 'true',
+    entraSsoEnabled: (process.env.ENTRA_SSO_ENABLED ?? 'false') === 'true',
+    smsProviderApiKey:
+      process.env.SMS_PROVIDER_API_KEY ?? 'dev-sms-key-change-in-production',
+    emailProviderApiKey:
+      process.env.EMAIL_PROVIDER_API_KEY ?? 'dev-email-key-change-in-production',
   };
 }
 
