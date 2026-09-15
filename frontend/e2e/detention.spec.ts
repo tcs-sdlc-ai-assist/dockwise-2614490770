@@ -16,8 +16,10 @@ import {
   signIn,
 } from './helpers';
 
+// @desktop — this journey mutates shared backend state (check-in consumes the
+// seeded appointment), so it runs on the desktop project only.
 test.describe('dock journey and detention', () => {
-  test('gate check-in → dock taps → visit detail with detention disclaimer', async ({
+  test('gate check-in → dock taps → visit detail with detention disclaimer @desktop', async ({
     page,
   }) => {
     const errors = captureConsoleErrors(page);

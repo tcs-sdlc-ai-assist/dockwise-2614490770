@@ -140,6 +140,12 @@ export async function seed(dataSource: DataSource): Promise<void> {
       orgId: operatorId!,
     },
     {
+      email: 'dock@dockwise.example',
+      fullName: 'Dock Lead',
+      role: Role.DOCK_LEAD,
+      orgId: operatorId!,
+    },
+    {
       email: 'tenant.admin@frostline.example',
       fullName: 'Tenant Admin',
       role: Role.TENANT_ADMIN,

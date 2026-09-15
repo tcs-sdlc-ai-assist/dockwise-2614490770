@@ -17,7 +17,7 @@ test.describe('appointment booking', () => {
     await signIn(page, 'booker@frostline.example');
   });
 
-  test('books an appointment and shows a confirmation code', async ({
+  test('books an appointment and shows a confirmation code @desktop', async ({
     page,
   }) => {
     const errors = captureConsoleErrors(page);
@@ -31,8 +31,11 @@ test.describe('appointment booking', () => {
     const siteSelect = page.getByLabel(/site/i);
     await siteSelect.selectOption({ index: 1 });
 
-    // Wait for slots and pick the first one.
-    const firstSlot = page.getByRole('option').first();
+    // Wait for slots and pick the first one (scoped to the slot listbox).
+    const firstSlot = page
+      .getByRole('listbox', { name: /available slots/i })
+      .getByRole('option')
+      .first();
     await expect(firstSlot).toBeVisible({ timeout: 15000 });
     await firstSlot.click();
 

@@ -12,7 +12,7 @@ import {
 } from './helpers';
 
 test.describe('site configuration', () => {
-  test('creates a site and manages its doors', async ({ page }) => {
+  test('creates a site and manages its doors @desktop', async ({ page }) => {
     const errors = captureConsoleErrors(page);
     await signIn(page, 'site.admin@dockwise.example');
     await page.getByRole('link', { name: /^sites$/i }).click();

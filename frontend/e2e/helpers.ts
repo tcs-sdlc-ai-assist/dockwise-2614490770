@@ -18,9 +18,20 @@ import { test, expect, type Page } from '@playwright/test';
 export function captureConsoleErrors(page: Page): string[] {
   const errors: string[] = [];
   page.on('console', (msg) => {
-    if (msg.type() === 'error') {
-      errors.push(msg.text());
+    if (msg.type() !== 'error') {
+      return;
     }
+    const text = msg.text();
+    // Ignore expected resource-load failures that are part of the journey
+    // under test (e.g. a 401 from a failed login, or a 409 conflict).
+    if (
+      /Failed to load resource: the server responded with a status of (401|403|404|409)/.test(
+        text,
+      )
+    ) {
+      return;
+    }
+    errors.push(text);
   });
   page.on('pageerror', (err) => {
     errors.push(err.message);

@@ -16,7 +16,7 @@ import {
 } from './helpers';
 
 test.describe('cross-feature journey', () => {
-  test('book → gate check-in → dock → search', async ({ page }) => {
+  test('book → gate check-in → dock → search @desktop', async ({ page }) => {
     const errors = captureConsoleErrors(page);
 
     // 1. Booker signs in and books an appointment (navigate by clicking).
@@ -28,7 +28,10 @@ test.describe('cross-feature journey', () => {
 
     const siteSelect = page.getByLabel(/site/i);
     await siteSelect.selectOption({ index: 1 });
-    const firstSlot = page.getByRole('option').first();
+    const firstSlot = page
+      .getByRole('listbox', { name: /available slots/i })
+      .getByRole('option')
+      .first();
     await expect(firstSlot).toBeVisible({ timeout: 15000 });
     await firstSlot.click();
     await page.getByLabel(/po \/ bol/i).fill('PO-E2E-JOURNEY');
