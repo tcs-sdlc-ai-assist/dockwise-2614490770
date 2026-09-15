@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       // Dev-only backend host; the shipped client uses same-origin relative paths.
       '/api': {
-        target: 'http://localhost:3001',
+        target: '',
         changeOrigin: true,
       },
     },

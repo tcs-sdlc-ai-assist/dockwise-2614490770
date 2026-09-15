@@ -15,7 +15,7 @@ export default defineConfig({
   retries: 0,
   reporter: 'list',
   use: {
-    baseURL: 'http://localhost:5173',
+    baseURL: '',
     trace: 'on-first-retry',
   },
   projects: [
@@ -37,7 +37,7 @@ export default defineConfig({
     {
       command: 'node dist/main.js',
       cwd: '../backend',
-      url: 'http://localhost:3001/api/health',
+      url: '/api/health',
       reuseExistingServer: false,
       timeout: 120_000,
       env: {
@@ -50,7 +50,7 @@ export default defineConfig({
     {
       command: 'node node_modules/vite/bin/vite.js dev --port 5173 --strictPort',
       cwd: '.',
-      url: 'http://localhost:5173',
+      url: '',
       reuseExistingServer: false,
       timeout: 120_000,
     },
